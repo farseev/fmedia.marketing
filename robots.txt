@@ -38,4 +38,4 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://trafix.app/sitemap.xml
+Sitemap: https://fmedia.marketing/sitemap.xml

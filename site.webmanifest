@@ -1,10 +1,10 @@
 {
- "name": "Trafix",
- "short_name": "Trafix",
+ "name": "FMedia",
+ "short_name": "FMedia",
  "start_url": "/",
  "display": "standalone",
- "background_color": "#FAFAF7",
- "theme_color": "#0E0E10",
+ "background_color": "#FAF8F5",
+ "theme_color": "#0D1024",
  "icons": [
   {
    "src": "/assets/img/icon-192.png",

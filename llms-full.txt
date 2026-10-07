@@ -1,44 +1,44 @@
-# Trafix
+# FMedia
 
-> Trafix is a paid-traffic profitability app for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.
+> FMedia is a paid media profitability studio for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.
 
-- Website: https://trafix.app/
-- Contact: ask@trafix.app
+- Website: https://fmedia.marketing/
+- Contact: ask@fmedia.marketing
 - Based in: Singapore
 - Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
 
 ## What we do
-- True-profit ROAS: Trafix nets returns, payment fees, shipping, discounts and cost of goods out of platform-reported revenue. You see campaign returns the way your finance team would.
-- Creative fatigue detection: Frequency, click-through decay and rising cost per result are read together, per creative. Trafix flags ads that are tiring before the account-level numbers fall.
+- True-profit ROAS: FMedia nets returns, payment fees, shipping, discounts and cost of goods out of platform-reported revenue. You see campaign returns the way your finance team would.
+- Creative fatigue detection: Frequency, click-through decay and rising cost per result are read together, per creative. FMedia flags ads that are tiring before the account-level numbers fall.
 - Budget reallocation: Recommendations move spend from campaigns at diminishing returns to those with profitable headroom. Every suggestion shows the reasoning so you can accept or reject it.
 - Pre-spend clickability scoring: New creatives are scored for likely clickability before you pay to test them, using SOMIN's paid-media intelligence. Weak concepts get fixed on the drawing board, not in the auction.
-- Hidden cost finder: Trafix surfaces costs that platform dashboards never show, from overlapping attribution to discount leakage. Each one is quantified against your own data.
+- Hidden cost finder: FMedia surfaces costs that platform dashboards never show, from overlapping attribution to discount leakage. Each one is quantified against your own data.
 - Agency scorecard: A plain profit view of what your agency's campaigns deliver, beyond the metrics in their monthly deck. Useful for reviews, renewals and fair conversations.
 
 ## Key pages
-- [Home](https://trafix.app/): Trafix shows true-profit ROAS for Meta and Google ads, net of returns and fees, flags creative fatigue and moves budget to what actually pays.
-- [Blog](https://trafix.app/blog/): ten articles
-- [Brand guidelines](https://trafix.app/brand/)
+- [Home](https://fmedia.marketing/): FMedia shows true-profit ROAS for Meta and Google ads, net of returns and fees, flags creative fatigue and moves budget to what actually pays.
+- [Blog](https://fmedia.marketing/blog/): ten articles
+- [Brand guidelines](https://fmedia.marketing/brand/)
 
 ## Articles
-- [True-profit ROAS: why your 400% return may be losing money](https://trafix.app/blog/true-profit-roas/): Platform ROAS ignores returns, fees and discounts. Here is how to calculate true-profit ROAS for Meta and Google ads, with a worked example.
-- [Creative fatigue: the early signals before results collapse](https://trafix.app/blog/creative-fatigue-signals/): How to spot creative fatigue on Meta and Google before ROAS drops: the signals to watch, a weekly checklist and when to rest or refresh an ad.
-- [How to evaluate agency performance beyond vanity metrics](https://trafix.app/blog/agency-performance-beyond-vanity-metrics/): A practical scorecard for judging a paid-media agency on profit, not platform ROAS, CTR or impressions. Questions to ask and data to request.
-- [Finding hidden costs in your Meta and Google advertising](https://trafix.app/blog/hidden-costs-in-advertising/): Seven hidden costs that platform dashboards miss, from attribution overlap to discount leakage, and how to find each one in your own data.
-- [Pre-spend creative scoring: test ideas before you pay the auction](https://trafix.app/blog/pre-spend-creative-scoring/): How pre-spend creative clickability scoring works, why it cuts testing waste on Meta and Google, and how to fit it into your creative workflow.
-- [Budget reallocation: moving spend before returns diminish](https://trafix.app/blog/budget-reallocation-diminishing-returns/): How to spot diminishing returns on Meta and Google campaigns and reallocate budget using marginal true-profit ROAS, with a simple weekly method.
-- [The overwhelming data dilemma: three numbers that matter](https://trafix.app/blog/overwhelming-data-dilemma/): Paid media teams drown in dashboards. Here are the three numbers that drive profitable decisions on Meta and Google, and what to ignore.
-- [Meta and Google double counting: what your combined ROAS hides](https://trafix.app/blog/meta-google-double-counting/): Why Meta and Google both claim the same orders, how to estimate attribution overlap against real sales, and what it means for budget.
-- [Returns and ad profitability: the e-commerce blind spot](https://trafix.app/blog/returns-and-ad-profitability/): How product returns quietly erode Meta and Google ad profit, how to tie returns back to campaigns and creatives, and what to change.
-- [The 30-minute weekly paid media profit review](https://trafix.app/blog/weekly-paid-media-profit-review/): A practical weekly ritual for Meta and Google advertisers: check profit, creative health and budget in 30 minutes, then make three decisions.
+- [True-profit ROAS: why your 400% return may be losing money](https://fmedia.marketing/blog/true-profit-roas/): Platform ROAS ignores returns, fees and discounts. Here is how to calculate true-profit ROAS for Meta and Google ads, with a worked example.
+- [Creative fatigue: the early signals before results collapse](https://fmedia.marketing/blog/creative-fatigue-signals/): How to spot creative fatigue on Meta and Google before ROAS drops: the signals to watch, a weekly checklist and when to rest or refresh an ad.
+- [How to evaluate agency performance beyond vanity metrics](https://fmedia.marketing/blog/agency-performance-beyond-vanity-metrics/): A practical scorecard for judging a paid-media agency on profit, not platform ROAS, CTR or impressions. Questions to ask and data to request.
+- [Finding hidden costs in your Meta and Google advertising](https://fmedia.marketing/blog/hidden-costs-in-advertising/): Seven hidden costs that platform dashboards miss, from attribution overlap to discount leakage, and how to find each one in your own data.
+- [Pre-spend creative scoring: test ideas before you pay the auction](https://fmedia.marketing/blog/pre-spend-creative-scoring/): How pre-spend creative clickability scoring works, why it cuts testing waste on Meta and Google, and how to fit it into your creative workflow.
+- [Budget reallocation: moving spend before returns diminish](https://fmedia.marketing/blog/budget-reallocation-diminishing-returns/): How to spot diminishing returns on Meta and Google campaigns and reallocate budget using marginal true-profit ROAS, with a simple weekly method.
+- [The overwhelming data dilemma: three numbers that matter](https://fmedia.marketing/blog/overwhelming-data-dilemma/): Paid media teams drown in dashboards. Here are the three numbers that drive profitable decisions on Meta and Google, and what to ignore.
+- [Meta and Google double counting: what your combined ROAS hides](https://fmedia.marketing/blog/meta-google-double-counting/): Why Meta and Google both claim the same orders, how to estimate attribution overlap against real sales, and what it means for budget.
+- [Returns and ad profitability: the e-commerce blind spot](https://fmedia.marketing/blog/returns-and-ad-profitability/): How product returns quietly erode Meta and Google ad profit, how to tie returns back to campaigns and creatives, and what to change.
+- [The 30-minute weekly paid media profit review](https://fmedia.marketing/blog/weekly-paid-media-profit-review/): A practical weekly ritual for Meta and Google advertisers: check profit, creative health and budget in 30 minutes, then make three decisions.
 
 ## FAQ
-- **What is true-profit ROAS?** True-profit ROAS is return on ad spend calculated on profit rather than platform-reported revenue. Trafix subtracts returns, refunds, payment fees, shipping subsidies, discounts and cost of goods from attributed revenue, then divides by spend. It answers the question finance actually asks: for every unit of currency spent on ads, how much did we keep?
-- **Does Trafix change my campaigns automatically?** No. Trafix reads data from Meta and Google and makes recommendations: rest this creative, move this budget, test this concept first. You approve every change in your ad accounts. We think profit decisions need a human owner, and the reasoning behind each recommendation is shown so you can challenge it.
-- **How does pre-spend creative scoring work?** Before launch, you upload creative concepts. Trafix uses SOMIN's clickability prediction, which compares the creative's message, format and visual approach with patterns from real audience response, to score how likely it is to earn clicks. Low scorers get reworked before you pay the auction to learn the same lesson.
-- **Which ad platforms does Trafix support?** Trafix is built for Meta (Facebook and Instagram) and Google Ads, including Search, Shopping and Performance Max reporting. Reading both side by side matters, because each platform tends to claim credit for the same orders, and the overlap is one of the hidden costs Trafix surfaces.
-- **What data do I need to connect?** Your Meta and Google Ads accounts, your order data from your store or back office, and a simple cost sheet covering cost of goods, payment fees and shipping. Returns data makes the biggest difference. If some inputs are missing, Trafix uses clearly labelled assumptions you can edit.
-- **How do I get an audit of my ad account?** Email ask@trafix.app with the subject 'Audit my ad account'. We will ask for read access and a short cost sheet, then walk you through true-profit ROAS by campaign, the creatives showing fatigue, and where budget is likely sitting in diminishing returns.
+- **What is true-profit ROAS?** True-profit ROAS is return on ad spend calculated on profit rather than platform-reported revenue. FMedia subtracts returns, refunds, payment fees, shipping subsidies, discounts and cost of goods from attributed revenue, then divides by spend. It answers the question finance actually asks: for every unit of currency spent on ads, how much did we keep?
+- **Does FMedia change my campaigns automatically?** No. FMedia reads data from Meta and Google and makes recommendations: rest this creative, move this budget, test this concept first. You approve every change in your ad accounts. We think profit decisions need a human owner, and the reasoning behind each recommendation is shown so you can challenge it.
+- **How does pre-spend creative scoring work?** Before launch, you upload creative concepts. FMedia uses SOMIN's clickability prediction, which compares the creative's message, format and visual approach with patterns from real audience response, to score how likely it is to earn clicks. Low scorers get reworked before you pay the auction to learn the same lesson.
+- **Which ad platforms does FMedia support?** FMedia is built for Meta (Facebook and Instagram) and Google Ads, including Search, Shopping and Performance Max reporting. Reading both side by side matters, because each platform tends to claim credit for the same orders, and the overlap is one of the hidden costs FMedia surfaces.
+- **What data do I need to connect?** Your Meta and Google Ads accounts, your order data from your store or back office, and a simple cost sheet covering cost of goods, payment fees and shipping. Returns data makes the biggest difference. If some inputs are missing, FMedia uses clearly labelled assumptions you can edit.
+- **How do I get an audit of my ad account?** Email ask@fmedia.marketing with the subject 'Audit my ad account'. We will ask for read access and a short cost sheet, then walk you through true-profit ROAS by campaign, the creatives showing fatigue, and where budget is likely sitting in diminishing returns.
 
 ## Sister companies
 - [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
@@ -54,7 +54,7 @@
 
 
 # True-profit ROAS: why your 400% return may be losing money
-URL: https://trafix.app/blog/true-profit-roas/ · Published 2026-10-05
+URL: https://fmedia.marketing/blog/true-profit-roas/ · Published 2026-10-05
 
 True-profit ROAS is return on ad spend calculated on the money you keep, not the revenue a platform reports. You take attributed revenue, subtract returns, refunds, payment fees, shipping subsidies, discounts and cost of goods, then divide by ad spend. A campaign reporting 400% ROAS can sit below break-even once those costs are netted out.
 
@@ -62,7 +62,7 @@ True-profit ROAS is return on ad spend calculated on the money you keep, not the
 
 Meta and Google report what they can observe: a click or view, followed by a purchase event with a value attached. That value is usually the basket total at checkout. It does not know that a third of those parcels in one category come back, that your payment processor takes a slice of every transaction, or that the order only happened because a 20% welcome code was waiting in the pop-up. Platforms are not lying. They are answering a narrower question than the one your business needs answered.
 
-The trouble starts when that narrow number becomes the target. Bidding algorithms optimise towards it, agencies are judged on it, and budgets scale towards whichever campaign shows the biggest figure. If the biggest figure is also the one with the highest return rate or the deepest discounting, you are scaling a loss with great confidence. At Trafix we call this chasing illusions: the dashboard looks like opportunity, and the real opportunity sits elsewhere, unfunded.
+The trouble starts when that narrow number becomes the target. Bidding algorithms optimise towards it, agencies are judged on it, and budgets scale towards whichever campaign shows the biggest figure. If the biggest figure is also the one with the highest return rate or the deepest discounting, you are scaling a loss with great confidence. At FMedia we call this chasing illusions: the dashboard looks like opportunity, and the real opportunity sits elsewhere, unfunded.
 
 ## What goes into a true-profit ROAS calculation?
 
@@ -112,9 +112,9 @@ Write your break-even ROAS on the wall. If a campaign reports 2.5 and your break
 
 ## Where does true-profit ROAS change decisions?
 
-Three places, in our experience building Trafix. First, budget allocation: once campaigns are ranked on profit, spend moves differently, which we cover in our guide to budget reallocation and diminishing returns (/blog/budget-reallocation-diminishing-returns/). Second, creative: a creative that drives impulse purchases with high return rates can look like a winner and be a drain. Third, agency conversations: when everyone agrees on the profit number, reviews stop being arguments about attribution windows.
+Three places, in our experience building FMedia. First, budget allocation: once campaigns are ranked on profit, spend moves differently, which we cover in our guide to budget reallocation and diminishing returns (/blog/budget-reallocation-diminishing-returns/). Second, creative: a creative that drives impulse purchases with high return rates can look like a winner and be a drain. Third, agency conversations: when everyone agrees on the profit number, reviews stop being arguments about attribution windows.
 
-It also changes what you test. If high-return products dominate a prospecting campaign, the answer may be a creative that sets expectations more accurately, not a bigger budget. That is where scoring creatives before spend helps. Trafix uses SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/) to predict how clickable a new creative is before it enters the auction, so the shortlist you pay to test is already filtered towards concepts real audiences respond to.
+It also changes what you test. If high-return products dominate a prospecting campaign, the answer may be a creative that sets expectations more accurately, not a bigger budget. That is where scoring creatives before spend helps. FMedia uses SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/) to predict how clickable a new creative is before it enters the auction, so the shortlist you pay to test is already filtered towards concepts real audiences respond to.
 
 ## How to start without perfect data
 
@@ -124,15 +124,15 @@ If you want to see how a structured, evidence-first approach changes media decis
 
 The number that scales your business is the one you can defend to finance. Everything else is a mood.
 
-## What Trafix does with this
+## What FMedia does with this
 
-Trafix connects to Meta and Google Ads, matches attributed revenue to real orders, and nets out returns, fees, shipping and discounts automatically. Every campaign, ad set and creative gets a true-profit ROAS alongside the platform figure, so the gap is visible rather than argued about. Assumptions are labelled and editable, because a profit number you cannot inspect is just another black box.
+FMedia connects to Meta and Google Ads, matches attributed revenue to real orders, and nets out returns, fees, shipping and discounts automatically. Every campaign, ad set and creative gets a true-profit ROAS alongside the platform figure, so the gap is visible rather than argued about. Assumptions are labelled and editable, because a profit number you cannot inspect is just another black box.
 
 The goal is not to make your marketing look worse. It is to make the good campaigns easier to find, fund and defend. A smaller honest number is the one you can scale.
 
 
 # Creative fatigue: the early signals before results collapse
-URL: https://trafix.app/blog/creative-fatigue-signals/ · Published 2026-09-21
+URL: https://fmedia.marketing/blog/creative-fatigue-signals/ · Published 2026-09-21
 
 Creative fatigue is the decline in an ad's performance as the same audience sees it too often. The early signals are falling click-through rate at stable frequency, rising cost per result, and weakening engagement quality. Catching these per creative, a week or two before account-level ROAS drops, lets you rest or refresh ads before they waste budget.
 
@@ -140,7 +140,7 @@ Creative fatigue is the decline in an ad's performance as the same audience sees
 
 Account dashboards average everything. A tired hero creative and two fresh ones blend into a stable-looking ROAS, until the fresh ones tire too and the whole account falls at once. By then you have paid for weeks of declining returns. The fix is to watch fatigue at the level where it happens: the individual creative within its audience.
 
-Fatigue also hides behind the algorithm. Meta and Google shift delivery towards whatever still performs, which can mask decay for a while by finding cheaper, less valuable impressions. The ad keeps spending; the people seeing it are simply less likely to buy, and more likely to return what they buy. That is why Trafix reads fatigue against true-profit ROAS (/blog/true-profit-roas/) as well as clicks.
+Fatigue also hides behind the algorithm. Meta and Google shift delivery towards whatever still performs, which can mask decay for a while by finding cheaper, less valuable impressions. The ad keeps spending; the people seeing it are simply less likely to buy, and more likely to return what they buy. That is why FMedia reads fatigue against true-profit ROAS (/blog/true-profit-roas/) as well as clicks.
 
 ## What are the early signals of creative fatigue?
 
@@ -184,7 +184,7 @@ The cheapest way to decide is to ask what the audience is responding to now. Thi
 
 ## How can you refresh without gambling the budget?
 
-Most refresh cycles go wrong in the same way: five new creatives go live, budget is split evenly, and three of them are weak. You pay the auction to learn what a little pre-work could have shown. Trafix scores replacement creatives before launch using SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/), which compares a creative's concept, format and message against patterns of real audience response. Weak options get reworked on the drawing board, and the ones that go live start from a better baseline. We go deeper on that process in our piece on pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
+Most refresh cycles go wrong in the same way: five new creatives go live, budget is split evenly, and three of them are weak. You pay the auction to learn what a little pre-work could have shown. FMedia scores replacement creatives before launch using SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/), which compares a creative's concept, format and message against patterns of real audience response. Weak options get reworked on the drawing board, and the ones that go live start from a better baseline. We go deeper on that process in our piece on pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
 
 For a sense of how brand teams use audience evidence to steer creative choices rather than guess, the Fujifilm case study on somin.ai (https://somin.ai/brands-fujifilm-case-study/) is worth reading.
 
@@ -204,15 +204,15 @@ The shape differs by format. Short video often peaks fast and tires fast. Static
 
 Fatigue is predictable. Running out of replacements is a choice.
 
-## How Trafix handles fatigue
+## How FMedia handles fatigue
 
-Trafix tracks each creative against its own baseline, reads click, cost, frequency and profit signals together, and flags creatives moving into "watch" and "rest". It estimates a half-life per concept type so you can plan a refresh cadence rather than react to collapses. When a creative needs replacing, the brief starts from what audiences currently respond to, and candidates are scored before spend.
+FMedia tracks each creative against its own baseline, reads click, cost, frequency and profit signals together, and flags creatives moving into "watch" and "rest". It estimates a half-life per concept type so you can plan a refresh cadence rather than react to collapses. When a creative needs replacing, the brief starts from what audiences currently respond to, and candidates are scored before spend.
 
 The aim is a calmer account: fewer cliffs, steadier profit, and creative teams working to a rhythm instead of a fire alarm.
 
 
 # How to evaluate agency performance beyond vanity metrics
-URL: https://trafix.app/blog/agency-performance-beyond-vanity-metrics/ · Published 2026-09-14
+URL: https://fmedia.marketing/blog/agency-performance-beyond-vanity-metrics/ · Published 2026-09-14
 
 To evaluate a paid-media agency beyond vanity metrics, judge it on contribution to profit rather than platform ROAS, clicks or impressions. Agree a true-profit definition up front, give the agency the cost data it needs, and review campaigns on profit per unit of spend, incrementality evidence, creative pipeline health and the quality of its reasoning.
 
@@ -278,15 +278,15 @@ A strong monthly report fits on two pages. Page one shows the agreed profit view
 
 Do not ask your agency for better numbers. Ask for more honest ones, and give them the data to produce them.
 
-## How Trafix helps
+## How FMedia helps
 
-Trafix gives brand and agency the same profit view. It nets returns, fees, shipping and discounts from attributed revenue, shows true-profit ROAS next to platform ROAS for every campaign, and keeps a simple agency scorecard of budget moves and creative refresh cadence. Because recommendations show their reasoning, reviews become a discussion of decisions rather than a negotiation about whose dashboard is right.
+FMedia gives brand and agency the same profit view. It nets returns, fees, shipping and discounts from attributed revenue, shows true-profit ROAS next to platform ROAS for every campaign, and keeps a simple agency scorecard of budget moves and creative refresh cadence. Because recommendations show their reasoning, reviews become a discussion of decisions rather than a negotiation about whose dashboard is right.
 
 That changes the tone of renewals. Good agencies get credit for the profit they actually create, and weak arguments built on vanity numbers stop working, on both sides of the table.
 
 
 # Finding hidden costs in your Meta and Google advertising
-URL: https://trafix.app/blog/hidden-costs-in-advertising/ · Published 2026-09-07
+URL: https://fmedia.marketing/blog/hidden-costs-in-advertising/ · Published 2026-09-07
 
 Hidden costs in advertising are expenses that reduce the profit from paid campaigns but never appear in Meta or Google dashboards. The most common are returns, discount leakage, payment and shipping costs, attribution overlap between platforms, branded search cannibalisation, testing waste on weak creatives, and spend that continues past the point of profitable returns.
 
@@ -328,7 +328,7 @@ Add platform-reported revenue from Meta and Google, then compare with actual pai
 
 ### Testing waste
 
-Count how much of last quarter's spend went to creatives that were switched off within two weeks for poor performance. That figure is your testing tax. Some of it is unavoidable. Much of it is not, which is why Trafix scores creatives before spend using SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/). More on the method in our guide to pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
+Count how much of last quarter's spend went to creatives that were switched off within two weeks for poor performance. That figure is your testing tax. Some of it is unavoidable. Much of it is not, which is why FMedia scores creatives before spend using SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/). More on the method in our guide to pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
 
 ## Which hidden cost should you fix first?
 
@@ -356,15 +356,15 @@ Before fixing anything, spend an hour sizing each cost for the last full quarter
 
 The cost you never see is the one you keep paying.
 
-## How Trafix surfaces hidden costs
+## How FMedia surfaces hidden costs
 
-Trafix connects your ad accounts with order, returns and cost data, then attaches each hidden cost to the campaign that incurred it. Overlap between Meta and Google is estimated against real orders. Discount usage is split by audience type. Testing waste is tracked per creative. Each cost is shown in currency, not as a vague warning, so you can rank them and decide where to start.
+FMedia connects your ad accounts with order, returns and cost data, then attaches each hidden cost to the campaign that incurred it. Overlap between Meta and Google is estimated against real orders. Discount usage is split by audience type. Testing waste is tracked per creative. Each cost is shown in currency, not as a vague warning, so you can rank them and decide where to start.
 
 None of this requires a perfect data warehouse. It requires a willingness to look at the numbers platforms do not show you, and a tool that keeps looking every week.
 
 
 # Pre-spend creative scoring: test ideas before you pay the auction
-URL: https://trafix.app/blog/pre-spend-creative-scoring/ · Published 2026-08-24
+URL: https://fmedia.marketing/blog/pre-spend-creative-scoring/ · Published 2026-08-24
 
 Pre-spend creative scoring predicts how likely an ad is to earn clicks before it runs. It compares a creative's message, format and visual approach with patterns from real audience response, so weak concepts can be reworked before launch. It does not replace live testing; it decides which ideas deserve the testing budget.
 
@@ -372,11 +372,11 @@ Pre-spend creative scoring predicts how likely an ad is to earn clicks before it
 
 The usual creative workflow treats the ad auction as a research lab. Five concepts go live, budget spreads across them, and a week later two are switched off. You learned something, but you paid full media rates to learn it, and some of those lessons were predictable. In accounts with modest budgets, the testing tax can eat a large share of monthly spend before anything profitable scales.
 
-The proposition behind Trafix's creative tools comes straight from SOMIN's work on paid-media profitability: score creative clickability before media spend, and invest in what truly converts. It is the practical answer to chasing illusions. Instead of discovering in the auction that an idea was weak, you filter on evidence first.
+The proposition behind FMedia's creative tools comes straight from SOMIN's work on paid-media profitability: score creative clickability before media spend, and invest in what truly converts. It is the practical answer to chasing illusions. Instead of discovering in the auction that an idea was weak, you filter on evidence first.
 
 ## How does creative clickability scoring work?
 
-Trafix uses SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/). SOMIN, an AI audience-research and paid-media intelligence platform, has learned from large volumes of real ads and the audience response they earned. When you submit a creative, it reads elements that tend to drive or suppress clicks:
+FMedia uses SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/). SOMIN, an AI audience-research and paid-media intelligence platform, has learned from large volumes of real ads and the audience response they earned. When you submit a creative, it reads elements that tend to drive or suppress clicks:
 
 - Message: the core promise, its clarity and how it maps to tensions the audience actually voices.
 
@@ -392,7 +392,7 @@ The output is a score plus the reasons behind it, so a creative team can fix the
 
 ## What scoring cannot do
 
-Scores are predictions, not verdicts. They are strongest at separating clearly weak concepts from promising ones, and weaker at ranking two strong ideas against each other. They predict clickability, not post-click behaviour, so a highly clickable creative can still attract buyers who return the product. That is why Trafix reads scores alongside true-profit ROAS (/blog/true-profit-roas/) once ads go live. The pre-spend score decides what to test; profit decides what to scale.
+Scores are predictions, not verdicts. They are strongest at separating clearly weak concepts from promising ones, and weaker at ranking two strong ideas against each other. They predict clickability, not post-click behaviour, so a highly clickable creative can still attract buyers who return the product. That is why FMedia reads scores alongside true-profit ROAS (/blog/true-profit-roas/) once ads go live. The pre-spend score decides what to test; profit decides what to scale.
 
 ## A five-step pre-spend workflow
 
@@ -428,17 +428,17 @@ Let the auction choose between good ideas. Do not pay it to reject bad ones.
 
 ## Where scoring fits with fatigue and budget
 
-Pre-spend scoring is most valuable at the moment a creative tires. When Trafix flags a creative moving into "rest" (see our creative fatigue guide (/blog/creative-fatigue-signals/)), the replacement brief starts from current audience signals and every candidate is scored before launch. The refresh is faster, and the first week of the new creative wastes less.
+Pre-spend scoring is most valuable at the moment a creative tires. When FMedia flags a creative moving into "rest" (see our creative fatigue guide (/blog/creative-fatigue-signals/)), the replacement brief starts from current audience signals and every candidate is scored before launch. The refresh is faster, and the first week of the new creative wastes less.
 
 It also helps budget reallocation. When spend moves to a campaign with profitable headroom, that campaign needs creative capable of absorbing it. Scoring tells you whether you have it before you commit the money.
 
-## How Trafix runs it
+## How FMedia runs it
 
-In Trafix, you upload concepts as images, video or copy, choose the target audience and placement, and get a clickability score with reasons from SOMIN within the same workspace where your profit numbers live. Scores are stored, so after launch you can compare predictions with results and see where your own judgment, and the model, were right or wrong. Over time that loop makes the creative team sharper, which is the point.
+In FMedia, you upload concepts as images, video or copy, choose the target audience and placement, and get a clickability score with reasons from SOMIN within the same workspace where your profit numbers live. Scores are stored, so after launch you can compare predictions with results and see where your own judgment, and the model, were right or wrong. Over time that loop makes the creative team sharper, which is the point.
 
 
 # Budget reallocation: moving spend before returns diminish
-URL: https://trafix.app/blog/budget-reallocation-diminishing-returns/ · Published 2026-08-17
+URL: https://fmedia.marketing/blog/budget-reallocation-diminishing-returns/ · Published 2026-08-17
 
 Budget reallocation means moving ad spend from campaigns where the next unit returns little profit to campaigns where it returns more. The key measure is marginal true-profit ROAS: the profit earned by the last increment of spend, not the average. Campaigns hit diminishing returns at different points, so budgets should move weekly, in small steps, based on evidence.
 
@@ -502,15 +502,15 @@ Two cautions. First, check that B has the creative capacity to absorb more spend
 
 The average tells you where you have been. The margin tells you where the next dollar should go.
 
-## How Trafix recommends reallocation
+## How FMedia recommends reallocation
 
-Trafix estimates a response curve for each campaign from its spend history, applies true-profit adjustments for returns, fees and discounts, and calculates marginal true-profit ROAS at current spend. Each week it suggests a small set of budget moves, with the reasoning shown: the curve, the expected profit change, and any creative capacity concerns. You approve the moves in your ad accounts. Trafix keeps score, so next week's suggestion learns from what actually happened.
+FMedia estimates a response curve for each campaign from its spend history, applies true-profit adjustments for returns, fees and discounts, and calculates marginal true-profit ROAS at current spend. Each week it suggests a small set of budget moves, with the reasoning shown: the curve, the expected profit change, and any creative capacity concerns. You approve the moves in your ad accounts. FMedia keeps score, so next week's suggestion learns from what actually happened.
 
 The effect is less dramatic than a big reallocation project and more useful: a steady drift of budget towards where it earns profit, with fewer surprises at month end.
 
 
 # The overwhelming data dilemma: three numbers that matter
-URL: https://trafix.app/blog/overwhelming-data-dilemma/ · Published 2026-08-10
+URL: https://fmedia.marketing/blog/overwhelming-data-dilemma/ · Published 2026-08-10
 
 The overwhelming data dilemma is the state where paid media teams have more metrics than decisions. The way out is to anchor on three numbers: true-profit ROAS per campaign, blended MER across all marketing, and creative health per ad. Everything else becomes a diagnostic you consult when one of those three moves, not a report you read every morning.
 
@@ -584,15 +584,15 @@ Finally, fix the inputs before adding outputs. Most data overload is caused by u
 
 A dashboard that cannot tell you what to do on Monday is decoration.
 
-## How Trafix reduces the noise
+## How FMedia reduces the noise
 
-Trafix is built around the three numbers. Its home view shows MER, true-profit ROAS per campaign and creative health, with diagnostics one click away rather than on the front page. Each week it produces a short list of decisions, not another dashboard. Every recommendation links to the data behind it, so you can challenge it, and nothing changes in your accounts without approval.
+FMedia is built around the three numbers. Its home view shows MER, true-profit ROAS per campaign and creative health, with diagnostics one click away rather than on the front page. Each week it produces a short list of decisions, not another dashboard. Every recommendation links to the data behind it, so you can challenge it, and nothing changes in your accounts without approval.
 
 Less to read, more to decide. That is the only fix for data overload we have seen work.
 
 
 # Meta and Google double counting: what your combined ROAS hides
-URL: https://trafix.app/blog/meta-google-double-counting/ · Published 2026-08-03
+URL: https://fmedia.marketing/blog/meta-google-double-counting/ · Published 2026-08-03
 
 Meta and Google double count when both platforms claim credit for the same order, because each uses its own attribution model and sees only its own touchpoints. Adding their reported revenue together therefore overstates what paid media produced. You estimate the overlap by comparing combined platform revenue with actual paid-attributed orders in your store.
 
@@ -666,13 +666,13 @@ Overlap is not a reason to distrust either platform. Both remain essential sourc
 
 Two dashboards claiming one sale is not growth. It is bookkeeping.
 
-## How Trafix handles overlap
+## How FMedia handles overlap
 
-Trafix reads Meta and Google side by side and matches their claimed conversions to real orders from your store. It reports an overlap factor by campaign type and shows true-profit ROAS on reconciled revenue, alongside each platform's own figure. You see where double counting is heaviest, usually branded search and retargeting, and can test or cap those areas first. No more arguing about whose model is right; just one profit number both teams can work from.
+FMedia reads Meta and Google side by side and matches their claimed conversions to real orders from your store. It reports an overlap factor by campaign type and shows true-profit ROAS on reconciled revenue, alongside each platform's own figure. You see where double counting is heaviest, usually branded search and retargeting, and can test or cap those areas first. No more arguing about whose model is right; just one profit number both teams can work from.
 
 
 # Returns and ad profitability: the e-commerce blind spot
-URL: https://trafix.app/blog/returns-and-ad-profitability/ · Published 2026-07-20
+URL: https://fmedia.marketing/blog/returns-and-ad-profitability/ · Published 2026-07-20
 
 Returns reduce ad profitability because platforms count the sale at checkout and never subtract the refund. A campaign with a high return rate can look like the best performer on platform ROAS while delivering the least profit. Tying returns back to the campaign and creative that drove each order shows which ads attract buyers who keep what they buy.
 
@@ -748,15 +748,15 @@ Shopping and Performance Max campaigns are driven by product feeds, so returns t
 
 The cheapest return to process is the one your ad never caused.
 
-## How Trafix tracks returns
+## How FMedia tracks returns
 
-Trafix joins returns data to orders and orders to campaigns and creatives, then shows return-adjusted figures next to platform ones: return rate, return-adjusted CPA and true-profit ROAS. Recent weeks are marked as provisional until the return window closes, so you do not overreact to incomplete data. Creatives with high return rates are flagged, and their replacements can be scored before launch for clickability, with the brief adjusted to set clearer expectations.
+FMedia joins returns data to orders and orders to campaigns and creatives, then shows return-adjusted figures next to platform ones: return rate, return-adjusted CPA and true-profit ROAS. Recent weeks are marked as provisional until the return window closes, so you do not overreact to incomplete data. Creatives with high return rates are flagged, and their replacements can be scored before launch for clickability, with the brief adjusted to set clearer expectations.
 
 The goal is not fewer sales. It is more kept sales per unit of spend, which is the only kind that pays the bills.
 
 
 # The 30-minute weekly paid media profit review
-URL: https://trafix.app/blog/weekly-paid-media-profit-review/ · Published 2026-07-06
+URL: https://fmedia.marketing/blog/weekly-paid-media-profit-review/ · Published 2026-07-06
 
 A weekly paid media profit review is a 30-minute meeting where you check blended MER, true-profit ROAS by campaign and creative health, then make three decisions: which creatives to rest, where to move budget, and which new concepts to test. It replaces long dashboard tours with a fixed agenda that ends in action.
 
@@ -840,8 +840,8 @@ In the first few weeks, most of the time goes on data quality: missing returns, 
 
 A good review is boring. It is the account that stops surprising you.
 
-## How Trafix runs the review
+## How FMedia runs the review
 
-Trafix prepares the review automatically: MER headline, true-profit ROAS by campaign, overlap notes, creative health statuses, and a scored shortlist of new concepts powered by SOMIN's clickability prediction. Recommended decisions sit at the bottom with reasoning attached. You walk through it in order, accept or change the decisions, and Trafix tracks the outcome for next week.
+FMedia prepares the review automatically: MER headline, true-profit ROAS by campaign, overlap notes, creative health statuses, and a scored shortlist of new concepts powered by SOMIN's clickability prediction. Recommended decisions sit at the bottom with reasoning attached. You walk through it in order, accept or change the decisions, and FMedia tracks the outcome for next week.
 
 Thirty minutes, three decisions, every week. Over a quarter, that discipline compounds into an account that is measured, funded and refreshed on profit.
