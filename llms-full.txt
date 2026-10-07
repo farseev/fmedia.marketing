@@ -1,0 +1,847 @@
+# Trafix
+
+> Trafix is a paid-traffic profitability app for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.
+
+- Website: https://trafix.app/
+- Contact: ask@trafix.app
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- True-profit ROAS: Trafix nets returns, payment fees, shipping, discounts and cost of goods out of platform-reported revenue. You see campaign returns the way your finance team would.
+- Creative fatigue detection: Frequency, click-through decay and rising cost per result are read together, per creative. Trafix flags ads that are tiring before the account-level numbers fall.
+- Budget reallocation: Recommendations move spend from campaigns at diminishing returns to those with profitable headroom. Every suggestion shows the reasoning so you can accept or reject it.
+- Pre-spend clickability scoring: New creatives are scored for likely clickability before you pay to test them, using SOMIN's paid-media intelligence. Weak concepts get fixed on the drawing board, not in the auction.
+- Hidden cost finder: Trafix surfaces costs that platform dashboards never show, from overlapping attribution to discount leakage. Each one is quantified against your own data.
+- Agency scorecard: A plain profit view of what your agency's campaigns deliver, beyond the metrics in their monthly deck. Useful for reviews, renewals and fair conversations.
+
+## Key pages
+- [Home](https://trafix.app/): Trafix shows true-profit ROAS for Meta and Google ads, net of returns and fees, flags creative fatigue and moves budget to what actually pays.
+- [Blog](https://trafix.app/blog/): ten articles
+- [Brand guidelines](https://trafix.app/brand/)
+
+## Articles
+- [True-profit ROAS: why your 400% return may be losing money](https://trafix.app/blog/true-profit-roas/): Platform ROAS ignores returns, fees and discounts. Here is how to calculate true-profit ROAS for Meta and Google ads, with a worked example.
+- [Creative fatigue: the early signals before results collapse](https://trafix.app/blog/creative-fatigue-signals/): How to spot creative fatigue on Meta and Google before ROAS drops: the signals to watch, a weekly checklist and when to rest or refresh an ad.
+- [How to evaluate agency performance beyond vanity metrics](https://trafix.app/blog/agency-performance-beyond-vanity-metrics/): A practical scorecard for judging a paid-media agency on profit, not platform ROAS, CTR or impressions. Questions to ask and data to request.
+- [Finding hidden costs in your Meta and Google advertising](https://trafix.app/blog/hidden-costs-in-advertising/): Seven hidden costs that platform dashboards miss, from attribution overlap to discount leakage, and how to find each one in your own data.
+- [Pre-spend creative scoring: test ideas before you pay the auction](https://trafix.app/blog/pre-spend-creative-scoring/): How pre-spend creative clickability scoring works, why it cuts testing waste on Meta and Google, and how to fit it into your creative workflow.
+- [Budget reallocation: moving spend before returns diminish](https://trafix.app/blog/budget-reallocation-diminishing-returns/): How to spot diminishing returns on Meta and Google campaigns and reallocate budget using marginal true-profit ROAS, with a simple weekly method.
+- [The overwhelming data dilemma: three numbers that matter](https://trafix.app/blog/overwhelming-data-dilemma/): Paid media teams drown in dashboards. Here are the three numbers that drive profitable decisions on Meta and Google, and what to ignore.
+- [Meta and Google double counting: what your combined ROAS hides](https://trafix.app/blog/meta-google-double-counting/): Why Meta and Google both claim the same orders, how to estimate attribution overlap against real sales, and what it means for budget.
+- [Returns and ad profitability: the e-commerce blind spot](https://trafix.app/blog/returns-and-ad-profitability/): How product returns quietly erode Meta and Google ad profit, how to tie returns back to campaigns and creatives, and what to change.
+- [The 30-minute weekly paid media profit review](https://trafix.app/blog/weekly-paid-media-profit-review/): A practical weekly ritual for Meta and Google advertisers: check profit, creative health and budget in 30 minutes, then make three decisions.
+
+## FAQ
+- **What is true-profit ROAS?** True-profit ROAS is return on ad spend calculated on profit rather than platform-reported revenue. Trafix subtracts returns, refunds, payment fees, shipping subsidies, discounts and cost of goods from attributed revenue, then divides by spend. It answers the question finance actually asks: for every unit of currency spent on ads, how much did we keep?
+- **Does Trafix change my campaigns automatically?** No. Trafix reads data from Meta and Google and makes recommendations: rest this creative, move this budget, test this concept first. You approve every change in your ad accounts. We think profit decisions need a human owner, and the reasoning behind each recommendation is shown so you can challenge it.
+- **How does pre-spend creative scoring work?** Before launch, you upload creative concepts. Trafix uses SOMIN's clickability prediction, which compares the creative's message, format and visual approach with patterns from real audience response, to score how likely it is to earn clicks. Low scorers get reworked before you pay the auction to learn the same lesson.
+- **Which ad platforms does Trafix support?** Trafix is built for Meta (Facebook and Instagram) and Google Ads, including Search, Shopping and Performance Max reporting. Reading both side by side matters, because each platform tends to claim credit for the same orders, and the overlap is one of the hidden costs Trafix surfaces.
+- **What data do I need to connect?** Your Meta and Google Ads accounts, your order data from your store or back office, and a simple cost sheet covering cost of goods, payment fees and shipping. Returns data makes the biggest difference. If some inputs are missing, Trafix uses clearly labelled assumptions you can edit.
+- **How do I get an audit of my ad account?** Email ask@trafix.app with the subject 'Audit my ad account'. We will ask for read access and a short cost sheet, then walk you through true-profit ROAS by campaign, the creatives showing fatigue, and where budget is likely sitting in diminishing returns.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.
+
+
+# Full articles
+
+
+# True-profit ROAS: why your 400% return may be losing money
+URL: https://trafix.app/blog/true-profit-roas/ · Published 2026-10-05
+
+True-profit ROAS is return on ad spend calculated on the money you keep, not the revenue a platform reports. You take attributed revenue, subtract returns, refunds, payment fees, shipping subsidies, discounts and cost of goods, then divide by ad spend. A campaign reporting 400% ROAS can sit below break-even once those costs are netted out.
+
+## Why does platform ROAS flatter your campaigns?
+
+Meta and Google report what they can observe: a click or view, followed by a purchase event with a value attached. That value is usually the basket total at checkout. It does not know that a third of those parcels in one category come back, that your payment processor takes a slice of every transaction, or that the order only happened because a 20% welcome code was waiting in the pop-up. Platforms are not lying. They are answering a narrower question than the one your business needs answered.
+
+The trouble starts when that narrow number becomes the target. Bidding algorithms optimise towards it, agencies are judged on it, and budgets scale towards whichever campaign shows the biggest figure. If the biggest figure is also the one with the highest return rate or the deepest discounting, you are scaling a loss with great confidence. At Trafix we call this chasing illusions: the dashboard looks like opportunity, and the real opportunity sits elsewhere, unfunded.
+
+## What goes into a true-profit ROAS calculation?
+
+The structure is simple, even if collecting the inputs takes discipline. Start from the revenue attributed to a campaign, then work down to contribution after advertising.
+
+- Attributed revenue: what the platform reports, ideally reconciled against real orders in your store.
+
+- Returns and refunds: the value of orders sent back or refunded, matched to the campaign where possible, or estimated by product category.
+
+- Discounts: codes, automatic promotions and bundle reductions, if the platform value was captured before they applied.
+
+- Payment and marketplace fees: the percentage and fixed fees per transaction.
+
+- Shipping and fulfilment subsidies: the gap between what the customer paid for delivery and what it cost you.
+
+- Cost of goods: the landed cost of what was sold and kept.
+
+True-profit ROAS is then the remaining gross profit divided by ad spend. A result of 1.0 means the ads paid for themselves at gross profit level and nothing more. Below 1.0, every extra unit of spend deepens the hole.
+
+## A worked example
+
+Take an illustrative fashion campaign with 10,000 in spend and 40,000 in platform-reported revenue. That is the headline 400% ROAS. Now apply the costs, using round, hypothetical numbers you should replace with your own.
+
+- Returns at 30% of value remove 12,000, leaving 28,000 of kept revenue.
+
+- Discount codes the platform value did not reflect remove another 2,000, leaving 26,000.
+
+- Payment fees at around 3% remove roughly 800, leaving 25,200.
+
+- Free-shipping subsidy across the kept orders removes 1,500, leaving 23,700.
+
+- Cost of goods at 45% of kept revenue removes about 10,700, leaving 13,000 of gross profit.
+
+Thirteen thousand of profit on ten thousand of spend is a true-profit ROAS of 1.3. Still positive, but nothing like the 4.0 that went into the monthly report. Now imagine a second campaign at 300% platform ROAS with a 10% return rate and no discounting. Run the same maths and it can easily beat the first. That reversal is the whole point: ranking campaigns by platform ROAS and by true-profit ROAS often produces different lists, and only one of them should drive budget.
+
+## Definitions worth agreeing internally
+
+- Platform ROAS: attributed revenue divided by spend, as reported by Meta or Google.
+
+- Break-even ROAS: the platform ROAS at which true profit after ads is zero. It rises as returns, fees and discounts rise.
+
+- True-profit ROAS: gross profit on kept orders divided by spend.
+
+- MER (marketing efficiency ratio): total revenue divided by total marketing spend, a useful sanity check that ignores attribution entirely.
+
+Write your break-even ROAS on the wall. If a campaign reports 2.5 and your break-even is 2.8, it is losing money however green the dashboard cell is.
+
+## Where does true-profit ROAS change decisions?
+
+Three places, in our experience building Trafix. First, budget allocation: once campaigns are ranked on profit, spend moves differently, which we cover in our guide to budget reallocation and diminishing returns (/blog/budget-reallocation-diminishing-returns/). Second, creative: a creative that drives impulse purchases with high return rates can look like a winner and be a drain. Third, agency conversations: when everyone agrees on the profit number, reviews stop being arguments about attribution windows.
+
+It also changes what you test. If high-return products dominate a prospecting campaign, the answer may be a creative that sets expectations more accurately, not a bigger budget. That is where scoring creatives before spend helps. Trafix uses SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/) to predict how clickable a new creative is before it enters the auction, so the shortlist you pay to test is already filtered towards concepts real audiences respond to.
+
+## How to start without perfect data
+
+Most teams delay this calculation because the data is messy. Do not wait. Begin with category-level return rates, a blended payment fee and an average cost of goods. A rough true-profit ROAS is far more useful than a precise vanity one. Refine the inputs monthly: match returns to orders, pull actual fees from your processor, split cost of goods by product line.
+
+If you want to see how a structured, evidence-first approach changes media decisions at scale, the KPI Media case study on somin.ai (https://somin.ai/agencies-kpi-media-case-study/) is a useful read on agency-side practice. And for the wider question of whether your AI and analytics stack is feeding decisions or just producing reports, our friends at GPT5 Marketing (https://gpt5.marketing/) write well about building reasoning workflows on good evidence.
+
+The number that scales your business is the one you can defend to finance. Everything else is a mood.
+
+## What Trafix does with this
+
+Trafix connects to Meta and Google Ads, matches attributed revenue to real orders, and nets out returns, fees, shipping and discounts automatically. Every campaign, ad set and creative gets a true-profit ROAS alongside the platform figure, so the gap is visible rather than argued about. Assumptions are labelled and editable, because a profit number you cannot inspect is just another black box.
+
+The goal is not to make your marketing look worse. It is to make the good campaigns easier to find, fund and defend. A smaller honest number is the one you can scale.
+
+
+# Creative fatigue: the early signals before results collapse
+URL: https://trafix.app/blog/creative-fatigue-signals/ · Published 2026-09-21
+
+Creative fatigue is the decline in an ad's performance as the same audience sees it too often. The early signals are falling click-through rate at stable frequency, rising cost per result, and weakening engagement quality. Catching these per creative, a week or two before account-level ROAS drops, lets you rest or refresh ads before they waste budget.
+
+## Why does creative fatigue hide for so long?
+
+Account dashboards average everything. A tired hero creative and two fresh ones blend into a stable-looking ROAS, until the fresh ones tire too and the whole account falls at once. By then you have paid for weeks of declining returns. The fix is to watch fatigue at the level where it happens: the individual creative within its audience.
+
+Fatigue also hides behind the algorithm. Meta and Google shift delivery towards whatever still performs, which can mask decay for a while by finding cheaper, less valuable impressions. The ad keeps spending; the people seeing it are simply less likely to buy, and more likely to return what they buy. That is why Trafix reads fatigue against true-profit ROAS (/blog/true-profit-roas/) as well as clicks.
+
+## What are the early signals of creative fatigue?
+
+No single metric settles it. Read them together, per creative, over a rolling window.
+
+- Click-through decay: CTR falling week on week while targeting and placement are unchanged.
+
+- Frequency creep: average frequency in the core audience rising, especially in smaller retargeting pools.
+
+- Rising cost per result: CPA climbing while CPM is stable, which points to the creative rather than the auction.
+
+- Thumb-stop erosion: for video, a falling share of people watching past the first seconds.
+
+- Profit drift: conversions holding but true-profit ROAS slipping, often because the remaining buyers are lower intent or return more.
+
+- Negative feedback: hides and "see less" signals ticking up.
+
+Two signals moving together in the same direction for two consecutive weeks is a reasonable threshold to act. One noisy week is not.
+
+## A weekly fatigue checklist
+
+- List every creative that spent more than a set share of budget this week.
+
+- For each, compare CTR and cost per result with its own first two weeks, not with the account average.
+
+- Check frequency in the core audience; note anything climbing steadily.
+
+- Check true-profit ROAS, not just platform ROAS, for the same creative.
+
+- Mark each creative as healthy, watch or rest.
+
+- For every "rest", confirm a replacement is ready before switching off.
+
+The last step matters most. Teams often know an ad is tired and keep it running because nothing is ready to replace it. That is a pipeline problem, not an analytics one.
+
+## Rest, refresh or replace?
+
+Not every tired ad is dead. A creative that fatigued in a narrow retargeting pool may still work in a broad prospecting audience. A strong concept with a worn-out first frame can often be revived by changing the hook, the opening visual or the format, while keeping the message. A concept whose message has simply stopped resonating needs replacing.
+
+The cheapest way to decide is to ask what the audience is responding to now. This is where audience signals help. Somonitor (https://somonitor.ai/), a sister brand in our network, tracks how conversations and tones shift in social listening, which often explains why a message that worked in spring feels flat by autumn.
+
+## How can you refresh without gambling the budget?
+
+Most refresh cycles go wrong in the same way: five new creatives go live, budget is split evenly, and three of them are weak. You pay the auction to learn what a little pre-work could have shown. Trafix scores replacement creatives before launch using SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/), which compares a creative's concept, format and message against patterns of real audience response. Weak options get reworked on the drawing board, and the ones that go live start from a better baseline. We go deeper on that process in our piece on pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
+
+For a sense of how brand teams use audience evidence to steer creative choices rather than guess, the Fujifilm case study on somin.ai (https://somin.ai/brands-fujifilm-case-study/) is worth reading.
+
+## Definitions
+
+- Frequency: the average number of times a person in the audience saw the ad in a period.
+
+- CTR decay: the week-on-week decline in click-through rate for the same creative and audience.
+
+- Creative half-life: the time a creative takes to lose half its initial efficiency; useful for planning refresh cadence.
+
+## What does a fatigue curve look like in practice?
+
+Picture an illustrative prospecting creative. In its first fortnight, click-through rate is strong and cost per purchase sits comfortably below target. In week three, frequency in the core audience edges up and CTR slips slightly. In week four, CTR slips again and cost per purchase rises while CPM stays flat. Platform ROAS is still above target because earlier buyers keep the average up. True-profit ROAS, however, has already fallen, because the newer buyers are more likely to return what they bought. That fourth week is the moment to act. Wait for the account-level drop and you have usually paid for two or three more weeks of decline.
+
+The shape differs by format. Short video often peaks fast and tires fast. Static product images tend to decay slowly but from a lower peak. Carousels sit somewhere in between. Knowing the typical shape for each format in your own account is what turns fatigue from a surprise into a schedule.
+
+Fatigue is predictable. Running out of replacements is a choice.
+
+## How Trafix handles fatigue
+
+Trafix tracks each creative against its own baseline, reads click, cost, frequency and profit signals together, and flags creatives moving into "watch" and "rest". It estimates a half-life per concept type so you can plan a refresh cadence rather than react to collapses. When a creative needs replacing, the brief starts from what audiences currently respond to, and candidates are scored before spend.
+
+The aim is a calmer account: fewer cliffs, steadier profit, and creative teams working to a rhythm instead of a fire alarm.
+
+
+# How to evaluate agency performance beyond vanity metrics
+URL: https://trafix.app/blog/agency-performance-beyond-vanity-metrics/ · Published 2026-09-14
+
+To evaluate a paid-media agency beyond vanity metrics, judge it on contribution to profit rather than platform ROAS, clicks or impressions. Agree a true-profit definition up front, give the agency the cost data it needs, and review campaigns on profit per unit of spend, incrementality evidence, creative pipeline health and the quality of its reasoning.
+
+## Why do agency reports default to vanity metrics?
+
+Not because agencies are cynical. They report what they can see and what they control. Platform ROAS, CTR, CPM and conversion counts arrive automatically from Meta and Google. Returns data, payment fees, cost of goods and discount leakage sit in your systems, often behind a finance team that has never been asked to share them. So the agency optimises the number it has, and both sides then argue about whether that number means anything.
+
+That is the trap described by one of the clearest tensions in SOMIN's listening on paid media: brands optimise ROAS and CPA while hidden costs go unexamined, and agencies are rewarded for the metrics that flatter rather than the ones that pay. Fixing it is a shared job. If you want an agency judged on profit, you have to hand over the inputs.
+
+## What should an agency scorecard measure?
+
+A good scorecard has five lines. Each one should be agreed in writing at the start of the quarter.
+
+- True-profit ROAS by campaign: gross profit on kept orders divided by spend, using the method in our true-profit ROAS guide (/blog/true-profit-roas/).
+
+- Incrementality evidence: holdouts, geo tests or at least a blended MER trend that shows ads are adding sales, not just claiming them.
+
+- Budget discipline: how quickly spend moved away from campaigns past their profitable point.
+
+- Creative pipeline health: number of new concepts tested, how they were chosen, and how quickly tired creatives were replaced.
+
+- Quality of reasoning: whether recommendations come with a clear why, and whether the agency flagged problems before you found them.
+
+Notice what is absent: impressions, reach and CTR as goals. They are useful diagnostics. They are not outcomes.
+
+## Questions to ask in your next agency review
+
+- Which campaign would you cut first if budget fell by a fifth, and why?
+
+- Which of our products have the highest return rates, and how does that change your bidding?
+
+- How much of the revenue you reported is also claimed by our other channel?
+
+- How did you choose which creatives to test this month?
+
+- What did you stop doing this quarter, and what did it save?
+
+A strong agency enjoys these questions. They are the questions it would ask itself if it had your data.
+
+## Is it fair to judge an agency on profit?
+
+Only if the agency can influence it and see it. That means sharing returns, margins and fees, and agreeing how attribution overlap will be handled. It also means accepting that true-profit numbers are smaller than platform numbers, and that a campaign moving from 1.1 to 1.3 true-profit ROAS may be a bigger achievement than one moving from 4.0 to 5.0 platform ROAS.
+
+Agencies that already work this way tend to lean on audience evidence rather than gut feel. The Havas Media case study on somin.ai (https://somin.ai/agencies-havas-media-case-study/) and the wider SOMIN for agencies (https://somin.ai/somin-for-agencies/) overview show how agency teams use SOMIN, an AI audience-research platform, to back recommendations with real audience signals. If you are weighing an agentic model, where AI agents run research, creative and optimisation and humans own judgment, AgentC (https://agentc.marketing/) in our network is built around exactly that split.
+
+## A simple monthly ritual
+
+Once a month, put three views side by side: platform ROAS, true-profit ROAS and blended MER. Ask the agency to explain any campaign where those three disagree. Disagreement is where the learning is. If the agency's explanation is "attribution is complicated", push for a test. If the explanation is specific, say high returns in one category, or overlap with branded search, you have a partner worth keeping.
+
+These conversations are getting more common among Singapore marketers. They came up repeatedly in community discussions around Marketing Mondays (https://mondays.marketing/), where the weekly format of one real signal decoded into a clear takeaway suits exactly this kind of agency question.
+
+## Definitions
+
+- Vanity metric: a number that rises easily and feels like progress but does not map to profit, such as impressions or platform-reported revenue on its own.
+
+- Incrementality: sales that would not have happened without the ads.
+
+- Attribution overlap: the same order claimed by more than one platform.
+
+## What does a good agency report look like?
+
+A strong monthly report fits on two pages. Page one shows the agreed profit view: true-profit ROAS by campaign, blended MER, and the budget moves made during the month with the reason for each. Page two covers creative: what was tested, why those concepts were chosen, what was rested, and what is queued next. Impressions and CTR appear only as supporting detail where they explain a change. If your current report runs to thirty slides and none of them shows profit, ask for this format instead. Most good agencies will welcome the clarity.
+
+Do not ask your agency for better numbers. Ask for more honest ones, and give them the data to produce them.
+
+## How Trafix helps
+
+Trafix gives brand and agency the same profit view. It nets returns, fees, shipping and discounts from attributed revenue, shows true-profit ROAS next to platform ROAS for every campaign, and keeps a simple agency scorecard of budget moves and creative refresh cadence. Because recommendations show their reasoning, reviews become a discussion of decisions rather than a negotiation about whose dashboard is right.
+
+That changes the tone of renewals. Good agencies get credit for the profit they actually create, and weak arguments built on vanity numbers stop working, on both sides of the table.
+
+
+# Finding hidden costs in your Meta and Google advertising
+URL: https://trafix.app/blog/hidden-costs-in-advertising/ · Published 2026-09-07
+
+Hidden costs in advertising are expenses that reduce the profit from paid campaigns but never appear in Meta or Google dashboards. The most common are returns, discount leakage, payment and shipping costs, attribution overlap between platforms, branded search cannibalisation, testing waste on weak creatives, and spend that continues past the point of profitable returns.
+
+## Why can't ad platforms see these costs?
+
+Ad platforms measure the journey up to the purchase event. Everything after checkout, and everything the other platform claimed, sits outside their view. That is not a flaw you can configure away. It is a boundary. The job of a profitability tool is to stitch the post-checkout world back onto the pre-checkout one so that each campaign carries its full cost.
+
+In SOMIN's listening on paid media, "finding hidden costs in advertising" shows up as a recurring moment for marketers: the uneasy point where the ads look fine and the margin does not. The useful response is a structured hunt, not a vague worry.
+
+## The seven hidden costs checklist
+
+- Returns and refunds. Highest in fashion, footwear and electronics accessories. Match returned orders back to the campaign that drove them.
+
+- Discount leakage. Codes used by customers who would have paid full price. Look for high code usage on retargeting and branded search, where intent is already strong.
+
+- Payment fees. A small percentage per order, plus fixed fees that hurt low-basket campaigns most.
+
+- Shipping and fulfilment subsidies. Free-shipping thresholds that cost more than they earn on small baskets.
+
+- Attribution overlap. The same order claimed by both Meta and Google, inflating combined ROAS. We explore this in our piece on double counting between platforms (/blog/meta-google-double-counting/).
+
+- Branded search cannibalisation. Paying for clicks on your own brand name from people who were already on their way.
+
+- Testing waste. Budget spent learning that weak creatives are weak, which could often be predicted before launch.
+
+## How do you find each cost in your own data?
+
+### Returns
+
+Export orders with a source or UTM field, join them to returns, and calculate return rate by campaign and by product category. If campaign-level matching is impossible, category-level rates applied to each campaign's product mix are a respectable start.
+
+### Discounts
+
+Compare discount usage between new and returning customers, and between prospecting and retargeting campaigns. Heavy code usage among returning customers on retargeting is a sign you are paying twice: once for the ad and once for the discount.
+
+### Overlap and cannibalisation
+
+Add platform-reported revenue from Meta and Google, then compare with actual paid-attributed revenue in your store. The difference is a rough measure of overlap. For branded search, a short, controlled pause in one region tells you more than any dashboard.
+
+### Testing waste
+
+Count how much of last quarter's spend went to creatives that were switched off within two weeks for poor performance. That figure is your testing tax. Some of it is unavoidable. Much of it is not, which is why Trafix scores creatives before spend using SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/). More on the method in our guide to pre-spend creative scoring (/blog/pre-spend-creative-scoring/).
+
+## Which hidden cost should you fix first?
+
+Size them, then fix the largest one you can control quickly. Returns are often the biggest but hardest to move; discount leakage and branded search are usually smaller but fixable in a week. A sensible order is:
+
+- Tighten discount rules on high-intent campaigns.
+
+- Test branded search pauses or bid caps.
+
+- Score new creatives before launch to cut testing waste.
+
+- Work with merchandising and creative on high-return products, often by setting clearer expectations in the ad itself.
+
+The last one is underrated. An ad that oversells fit, size or finish attracts buyers who send things back. Honest creative is a profitability lever.
+
+## What about visibility costs outside paid media?
+
+Some hidden costs are really missed opportunities. If customers cannot find you in organic search or in AI answers, you pay to rent attention you could have earned. SNMRush (https://snmrush.com/), a sister brand, works on visibility across search and AI assistants, which can reduce your reliance on paid branded clicks over time.
+
+For a brand-side example of building decisions on real audience evidence rather than assumptions, read the Mothercare Singapore case study on somin.ai (https://somin.ai/brands-mothercare-sg-case-study/).
+
+## A quick sizing exercise
+
+Before fixing anything, spend an hour sizing each cost for the last full quarter. Write seven lines on a page, one per hidden cost, and next to each put a rough figure in currency: returns attributed to paid orders, discount value used on paid orders, payment fees, shipping subsidy, estimated overlap, a branded search estimate, and spend on creatives switched off within two weeks. The figures will be imperfect. That is fine. The ranking is what you need, and it is usually surprising. Teams often discover that the cost they argue about most is not the largest one.
+
+The cost you never see is the one you keep paying.
+
+## How Trafix surfaces hidden costs
+
+Trafix connects your ad accounts with order, returns and cost data, then attaches each hidden cost to the campaign that incurred it. Overlap between Meta and Google is estimated against real orders. Discount usage is split by audience type. Testing waste is tracked per creative. Each cost is shown in currency, not as a vague warning, so you can rank them and decide where to start.
+
+None of this requires a perfect data warehouse. It requires a willingness to look at the numbers platforms do not show you, and a tool that keeps looking every week.
+
+
+# Pre-spend creative scoring: test ideas before you pay the auction
+URL: https://trafix.app/blog/pre-spend-creative-scoring/ · Published 2026-08-24
+
+Pre-spend creative scoring predicts how likely an ad is to earn clicks before it runs. It compares a creative's message, format and visual approach with patterns from real audience response, so weak concepts can be reworked before launch. It does not replace live testing; it decides which ideas deserve the testing budget.
+
+## Why test before you spend?
+
+The usual creative workflow treats the ad auction as a research lab. Five concepts go live, budget spreads across them, and a week later two are switched off. You learned something, but you paid full media rates to learn it, and some of those lessons were predictable. In accounts with modest budgets, the testing tax can eat a large share of monthly spend before anything profitable scales.
+
+The proposition behind Trafix's creative tools comes straight from SOMIN's work on paid-media profitability: score creative clickability before media spend, and invest in what truly converts. It is the practical answer to chasing illusions. Instead of discovering in the auction that an idea was weak, you filter on evidence first.
+
+## How does creative clickability scoring work?
+
+Trafix uses SOMIN's creative clickability prediction (https://somin.ai/somin-paid-media/). SOMIN, an AI audience-research and paid-media intelligence platform, has learned from large volumes of real ads and the audience response they earned. When you submit a creative, it reads elements that tend to drive or suppress clicks:
+
+- Message: the core promise, its clarity and how it maps to tensions the audience actually voices.
+
+- Hook: the first frame or headline and whether it earns attention in a feed.
+
+- Format: static, carousel, short video, and the fit with placement.
+
+- Visual approach: composition, product visibility, people versus product, contrast.
+
+- Audience fit: how the concept aligns with what the target segment responds to.
+
+The output is a score plus the reasons behind it, so a creative team can fix the weak element instead of guessing.
+
+## What scoring cannot do
+
+Scores are predictions, not verdicts. They are strongest at separating clearly weak concepts from promising ones, and weaker at ranking two strong ideas against each other. They predict clickability, not post-click behaviour, so a highly clickable creative can still attract buyers who return the product. That is why Trafix reads scores alongside true-profit ROAS (/blog/true-profit-roas/) once ads go live. The pre-spend score decides what to test; profit decides what to scale.
+
+## A five-step pre-spend workflow
+
+- Brief from evidence. Start with audience tensions and recent winners, not a blank page.
+
+- Produce more rough concepts than you need. Eight rough ideas beat three polished ones at this stage.
+
+- Score every concept. Read the reasons, not just the number.
+
+- Rework or drop low scorers. Often a new hook or clearer product shot is enough.
+
+- Launch the shortlist with equal starting budgets. Let live data, judged on profit, decide which to scale.
+
+## Does scoring make all creative look the same?
+
+It can, if you treat the score as a target rather than a filter. The fix is to score for clickability while protecting your brand's distinct voice. Score variations within your own style, not imitations of competitors. Our sister brand GPT3 Marketing (https://gpt3.marketing/) writes thoughtfully about how generative AI pushes brands towards sameness and how grounding content in what real audiences respond to is the antidote. The same principle applies here: evidence should sharpen your ideas, not average them.
+
+For an example of how audience insight shapes creative direction on the brand side, the Pepsi India case study on somin.ai (https://somin.ai/brands-pepsi-india-case-study/) is worth a look.
+
+## Definitions
+
+- Clickability: the predicted likelihood that a creative earns a click from its target audience in a feed or results page.
+
+- Testing tax: media spend used to learn that a creative underperforms.
+
+- Shortlist: the subset of scored concepts that go live for paid testing.
+
+## An illustrative before and after
+
+Imagine a skincare brand preparing a refresh with eight concepts. Scoring flags two as weak: one buries the product behind a lifestyle scene, the other leads with a claim the audience does not care about. A third scores in the middle because its hook arrives too late in the video. The team drops the first two, re-cuts the third so the product appears in the opening second, and launches six instead of eight. The testing budget per concept rises, each test reaches a readable result sooner, and the live data is spent comparing good ideas. None of that required a new tool for the creative team, only a step between briefing and launch.
+
+Let the auction choose between good ideas. Do not pay it to reject bad ones.
+
+## Where scoring fits with fatigue and budget
+
+Pre-spend scoring is most valuable at the moment a creative tires. When Trafix flags a creative moving into "rest" (see our creative fatigue guide (/blog/creative-fatigue-signals/)), the replacement brief starts from current audience signals and every candidate is scored before launch. The refresh is faster, and the first week of the new creative wastes less.
+
+It also helps budget reallocation. When spend moves to a campaign with profitable headroom, that campaign needs creative capable of absorbing it. Scoring tells you whether you have it before you commit the money.
+
+## How Trafix runs it
+
+In Trafix, you upload concepts as images, video or copy, choose the target audience and placement, and get a clickability score with reasons from SOMIN within the same workspace where your profit numbers live. Scores are stored, so after launch you can compare predictions with results and see where your own judgment, and the model, were right or wrong. Over time that loop makes the creative team sharper, which is the point.
+
+
+# Budget reallocation: moving spend before returns diminish
+URL: https://trafix.app/blog/budget-reallocation-diminishing-returns/ · Published 2026-08-17
+
+Budget reallocation means moving ad spend from campaigns where the next unit returns little profit to campaigns where it returns more. The key measure is marginal true-profit ROAS: the profit earned by the last increment of spend, not the average. Campaigns hit diminishing returns at different points, so budgets should move weekly, in small steps, based on evidence.
+
+## Why does average ROAS mislead budget decisions?
+
+Average ROAS blends the cheap, high-intent conversions a campaign won first with the expensive, marginal ones it won last. A campaign averaging a healthy return can be earning almost nothing on its most recent spend. Scale it further and the average falls slowly, masking the fact that every extra unit is close to break-even or below it.
+
+That is the second form of chasing illusions. The first is ignoring hidden costs, as covered in our true-profit ROAS guide (/blog/true-profit-roas/). The second is trusting averages when decisions happen at the margin.
+
+## How do you spot diminishing returns?
+
+Look at how results changed when spend changed. You need a few weeks of data at different spend levels for each campaign.
+
+- Cost per result rising faster than spend: doubling spend while cost per result rises sharply is the classic sign.
+
+- Frequency climbing in the core audience: the campaign is reaching the same people again.
+
+- Lower-value orders: average order value or margin falling as the campaign reaches less committed buyers.
+
+- Rising returns: marginal buyers often return more, which only shows up in true-profit numbers.
+
+## A simple weekly reallocation method
+
+- For each campaign, estimate marginal true-profit ROAS from the last two or three spend changes.
+
+- Rank campaigns by marginal, not average, return.
+
+- Move a modest share of budget, say a tenth, from the lowest marginal campaign to the highest.
+
+- Check that the receiving campaign has creative capacity, scored if new.
+
+- Hold for a week, observe, repeat.
+
+Small, frequent moves beat large quarterly swings. Algorithms on both Meta and Google need time to settle after budget changes, and big jumps reset learning in ways that make the data harder to read.
+
+## Definitions
+
+- Marginal ROAS: the return generated by the most recent increment of spend.
+
+- Saturation point: the spend level beyond which marginal true-profit ROAS falls below your floor.
+
+- Profitable headroom: the additional spend a campaign can absorb before reaching its saturation point.
+
+## What about cross-platform reallocation?
+
+Moving budget between Meta and Google is where attribution overlap bites. If both platforms claim the same orders, each looks better than it is, and shifting money between them can appear to improve both. Use blended MER and true-profit numbers reconciled against real orders as the referee; more in our piece on double counting (/blog/meta-google-double-counting/). For the strategic layer above channels, SOMIN's strategy tools (https://somin.ai/somin-strategy/) help teams decide which audiences and messages deserve investment in the first place.
+
+## Is it ever right to keep funding a saturated campaign?
+
+Sometimes. A campaign at saturation may be bringing in first-time customers with strong repeat value, or building awareness in a segment you plan to grow. Those are legitimate reasons, but they should be explicit. Write down why a campaign is being funded past its profitable point and when you will review it. Without that note, saturation becomes habit.
+
+Understanding which segments are worth that patience is a cultural and psychological question as much as a numerical one. Mindfuse (https://mindfuse.sg/), a sister consultancy focused on consumer psychology in Singapore and Southeast Asia, works on exactly the segment and tension questions that justify long-term investment.
+
+Agencies running multi-client budgets face this at scale. The Neo360 story on somin.ai (https://somin.ai/agencies-neo360/) is a useful read on how agency teams use audience intelligence to guide where money goes.
+
+## A worked example with two campaigns
+
+Take two illustrative campaigns, each spending the same weekly budget. Campaign A reports the higher platform ROAS on average. Over the past month, though, its spend rose in steps and each step bought noticeably fewer kept orders than the last; its marginal true-profit ROAS is now close to 1.0. Campaign B has a lower average but has barely changed in efficiency as spend grew, and its marginal true-profit ROAS is still well above the floor. Ranked by average, A looks like the one to grow. Ranked at the margin, B is. Moving a tenth of A's budget to B costs A very little profit and gives B room to earn more. Do that for a few weeks, watching both curves, and you converge on a split where the next unit earns roughly the same in each. That balance point is the goal.
+
+Two cautions. First, check that B has the creative capacity to absorb more spend; a campaign running one tired ad will saturate quickly. Second, recompute the curves each week, because seasonality and competition move them.
+
+The average tells you where you have been. The margin tells you where the next dollar should go.
+
+## How Trafix recommends reallocation
+
+Trafix estimates a response curve for each campaign from its spend history, applies true-profit adjustments for returns, fees and discounts, and calculates marginal true-profit ROAS at current spend. Each week it suggests a small set of budget moves, with the reasoning shown: the curve, the expected profit change, and any creative capacity concerns. You approve the moves in your ad accounts. Trafix keeps score, so next week's suggestion learns from what actually happened.
+
+The effect is less dramatic than a big reallocation project and more useful: a steady drift of budget towards where it earns profit, with fewer surprises at month end.
+
+
+# The overwhelming data dilemma: three numbers that matter
+URL: https://trafix.app/blog/overwhelming-data-dilemma/ · Published 2026-08-10
+
+The overwhelming data dilemma is the state where paid media teams have more metrics than decisions. The way out is to anchor on three numbers: true-profit ROAS per campaign, blended MER across all marketing, and creative health per ad. Everything else becomes a diagnostic you consult when one of those three moves, not a report you read every morning.
+
+## Why does more data make decisions harder?
+
+Meta and Google each expose hundreds of metrics. Analytics tools add more, agencies add their own decks, and finance adds the P&L. Every number is defensible on its own. Together they create noise, and noise has a cost: meetings that review dashboards instead of making choices, and teams that pick whichever metric supports the decision they already wanted.
+
+"The overwhelming data dilemma" is one of the moments that surfaces again and again in SOMIN's listening on marketers working with AI and analytics. The underlying tension is not a lack of tools. It is fragmented analytics and old measurement frameworks that were never designed around profit. More data on top of that only deepens the fog.
+
+## Which three numbers actually matter?
+
+### 1. True-profit ROAS by campaign
+
+Gross profit on kept orders divided by spend, after returns, fees, shipping and discounts. It tells you which campaigns pay their way. The method is in our true-profit ROAS guide (/blog/true-profit-roas/).
+
+### 2. Blended MER
+
+Total revenue divided by total marketing spend. It ignores attribution entirely, which is its strength. If campaign-level numbers all improve while MER falls, something is being double counted.
+
+### 3. Creative health per ad
+
+A simple status for each active creative: healthy, watch or rest, based on click decay, frequency and profit drift. It tells you where next week's work is. See our creative fatigue guide (/blog/creative-fatigue-signals/) for the signals.
+
+## What should you stop reading every day?
+
+- Impressions and reach, unless you are running awareness with a defined goal.
+
+- Platform ROAS on its own, without true-profit context.
+
+- CTR across the whole account; read it per creative, when health changes.
+
+- Daily swings in anything; weekly is the right rhythm for most budgets.
+
+These are not useless. They are diagnostics. You consult them when a headline number moves and you need to know why.
+
+## A one-page weekly report template
+
+- Headline: MER this week versus the four-week average.
+
+- Campaigns: true-profit ROAS for each, ranked, with any that crossed below your floor highlighted.
+
+- Creative: count of healthy, watch and rest creatives; the replacements ready.
+
+- Decisions: budget moves made, creatives rested, tests launched.
+
+- Questions: one thing the data cannot yet explain.
+
+If the report does not end with decisions, it is a dashboard, not a report.
+
+## Where does AI help, and where does it add noise?
+
+AI is good at summarising large volumes of data and spotting patterns. It is also good at producing confident paragraphs about patterns that do not matter. The guardrail is the same as for humans: insist that every AI conclusion can be checked against the data behind it. That principle runs through SOMIN's reporting tools (https://somin.ai/somin-reporting/), where conclusions trace back to the evidence. For a wider look at how reporting tools compare, SOMIN's comparison of reporting tools (https://somin.ai/somin-vs-reporting-tools/) is a fair starting point, and the Analytic Partners case study (https://somin.ai/agencies-analytic-partners-case-study/) shows how measurement specialists combine audience signals with analytics.
+
+The question of how much AI should do, and how much humans should own, came up directly in one of the Marketing Mondays (https://mondays.marketing/) sessions at Block71, the panel on AI's role in creative, media and brand marketing. The consensus among practitioners in the room was familiar: AI to compress the data, humans to decide.
+
+## Definitions
+
+- Headline metric: a number reviewed every week that directly drives decisions.
+
+- Diagnostic metric: a number consulted only when a headline metric moves.
+
+- MER: marketing efficiency ratio, total revenue over total marketing spend.
+
+## Why do teams resist cutting metrics?
+
+Partly habit, partly fear. A long dashboard feels thorough, and nobody wants to be the person who removed the metric that would have caught the problem. The answer is not to delete diagnostics but to demote them. Keep every metric available, and agree which three get reviewed every week. When one of the three moves, open the diagnostics and trace the cause. This gives the team both focus and reassurance: nothing is hidden, but not everything is shouted.
+
+It also helps to agree thresholds in advance. Decide what movement in MER triggers an investigation, which true-profit floor a campaign must hold, and how many weeks of decline turn a creative from watch to rest. Pre-agreed thresholds remove the daily debate about whether a number is worrying. The rules decide, and people spend their energy on the response rather than the argument.
+
+Finally, fix the inputs before adding outputs. Most data overload is caused by unreconciled sources telling slightly different stories. One reconciled set of orders, returns and costs does more for clarity than any new chart.
+
+A dashboard that cannot tell you what to do on Monday is decoration.
+
+## How Trafix reduces the noise
+
+Trafix is built around the three numbers. Its home view shows MER, true-profit ROAS per campaign and creative health, with diagnostics one click away rather than on the front page. Each week it produces a short list of decisions, not another dashboard. Every recommendation links to the data behind it, so you can challenge it, and nothing changes in your accounts without approval.
+
+Less to read, more to decide. That is the only fix for data overload we have seen work.
+
+
+# Meta and Google double counting: what your combined ROAS hides
+URL: https://trafix.app/blog/meta-google-double-counting/ · Published 2026-08-03
+
+Meta and Google double count when both platforms claim credit for the same order, because each uses its own attribution model and sees only its own touchpoints. Adding their reported revenue together therefore overstates what paid media produced. You estimate the overlap by comparing combined platform revenue with actual paid-attributed orders in your store.
+
+## Why do both platforms claim the same sale?
+
+A customer sees an Instagram ad on Tuesday, searches your brand on Thursday, clicks a Google ad and buys. Meta records a view-through or click-through conversion within its window. Google records a click conversion. Both are honest about what they observed. Neither knows about the other. Your finance team, meanwhile, sees one order.
+
+Multiply that across thousands of orders and combined platform ROAS can sit far above reality. It is one of the most common hidden costs we list in our hidden costs checklist (/blog/hidden-costs-in-advertising/), and one of the least discussed, because nobody's dashboard shows it.
+
+## How do you estimate the overlap?
+
+- Take a period of at least four weeks.
+
+- Add Meta-reported purchase revenue and Google-reported conversion revenue.
+
+- From your store, take revenue from orders that had any paid touchpoint, using UTMs or click IDs.
+
+- The ratio of the two is your overlap factor. A combined platform total well above store paid revenue means heavy double counting.
+
+- Repeat by campaign type: branded search and retargeting usually overlap most.
+
+The method is not perfect. Store tracking misses some view-through influence, and that influence is real. But it gives you a defensible ceiling on what paid media could have produced, which platform totals do not.
+
+## Where does overlap concentrate?
+
+- Branded search: often captures people Meta already persuaded.
+
+- Retargeting on both platforms: two networks chasing the same cart abandoners.
+
+- Performance Max: broad inventory that can include branded and remarketing traffic.
+
+- Long view-through windows: Meta credit for people who saw an ad and later bought via another route.
+
+## What should you do about it?
+
+Do not try to settle which platform "really" deserves the sale. That argument has no winner. Instead, use three referees:
+
+- Blended MER for the overall health of paid media.
+
+- True-profit ROAS reconciled against real orders for each campaign.
+
+- Incrementality tests, such as regional pauses, for the big questions like branded search.
+
+Then make budget decisions on marginal profit, as described in our budget reallocation guide (/blog/budget-reallocation-diminishing-returns/).
+
+## Definitions
+
+- Attribution window: the time after a click or view within which a platform credits a conversion.
+
+- View-through conversion: a purchase credited to an ad that was seen but not clicked.
+
+- Overlap factor: combined platform-reported revenue divided by store-recorded paid revenue.
+
+## Why this matters for agencies and teams
+
+When separate agencies run Meta and Google, each reports its own platform total and each looks excellent. The brand pays twice in credit and once in cash. A shared, reconciled profit view ends this quietly. It is also why we argue for evaluating agencies on contribution, as covered in our agency scorecard article (/blog/agency-performance-beyond-vanity-metrics/).
+
+Cross-channel measurement is a broader problem too: audiences move between platforms, and few teams can measure them consistently. SOMIN's paid-media intelligence (https://somin.ai/somin-paid-media/) approaches it from the audience side, reading what people respond to across channels rather than relying on one platform's view of the journey. For an agency example, see the Click2View Asia case study on somin.ai (https://somin.ai/agencies-click2view-asia-case-study/).
+
+If you are rebuilding your measurement around reasoning models and agentic workflows, our sister studio GPT5 Marketing (https://gpt5.marketing/) works with CMOs on exactly that redesign.
+
+## An illustrative overlap calculation
+
+Suppose over four weeks Meta reports 60,000 in purchase revenue and Google reports 50,000, a combined 110,000. Your store shows 75,000 of revenue from orders with any paid touchpoint. The overlap factor is 110,000 divided by 75,000, roughly 1.47. In plain terms, for every unit of real paid revenue, the platforms together claim about one and a half. If the combined platform ROAS looked like 4.4 on 25,000 of spend, the reconciled figure is closer to 3.0, before any returns or fees. Now split the same calculation by campaign type. You may find prospecting campaigns overlap very little while branded search and retargeting overlap heavily. That split tells you where to test first.
+
+## How do you run a simple incrementality test?
+
+Pick a region or a set of comparable regions. Pause or sharply reduce one campaign type, for example branded search, in the test region for two to four weeks while leaving the control unchanged. Compare total orders, not platform conversions, between test and control. If total orders barely move, the campaign was mostly claiming sales that would have happened anyway. If they drop, it was genuinely adding sales, and you now know by roughly how much. Keep the test simple and long enough to escape weekly noise; a clean small test beats an ambitious messy one.
+
+Overlap is not a reason to distrust either platform. Both remain essential sources of signal about who saw what and when. The point is to stop adding their claims together and calling the total growth, and to make budget decisions on numbers that match the orders your business actually shipped and kept.
+
+Two dashboards claiming one sale is not growth. It is bookkeeping.
+
+## How Trafix handles overlap
+
+Trafix reads Meta and Google side by side and matches their claimed conversions to real orders from your store. It reports an overlap factor by campaign type and shows true-profit ROAS on reconciled revenue, alongside each platform's own figure. You see where double counting is heaviest, usually branded search and retargeting, and can test or cap those areas first. No more arguing about whose model is right; just one profit number both teams can work from.
+
+
+# Returns and ad profitability: the e-commerce blind spot
+URL: https://trafix.app/blog/returns-and-ad-profitability/ · Published 2026-07-20
+
+Returns reduce ad profitability because platforms count the sale at checkout and never subtract the refund. A campaign with a high return rate can look like the best performer on platform ROAS while delivering the least profit. Tying returns back to the campaign and creative that drove each order shows which ads attract buyers who keep what they buy.
+
+## Why are returns the biggest blind spot?
+
+Returns arrive days or weeks after the purchase event, long after the ad platform has credited the conversion and the bidding algorithm has learned from it. The algorithm is effectively trained to find more people like the ones who bought, including those who sent things back. If a creative attracts impulse buyers with high return rates, the platform rewards it and spends more on it.
+
+For many fashion, footwear and home brands, returns are the largest single gap between platform ROAS and true profit, larger than fees or shipping. We cover the full calculation in our true-profit ROAS guide (/blog/true-profit-roas/); this article is about the returns line specifically.
+
+## How do you tie returns back to ads?
+
+- Keep the source on the order. UTMs, click IDs or first-party tracking stored with each order.
+
+- Join returns to orders. Most store and returns platforms can export by order ID.
+
+- Aggregate by campaign, then by creative. Return value as a share of attributed revenue.
+
+- Split by product category. Some campaigns look bad only because they sell high-return products.
+
+- Refresh monthly. Returns lag; recent weeks will be understated until the return window closes.
+
+Where matching is incomplete, apply category return rates to each campaign's product mix. It is an estimate, but a labelled estimate beats an invisible cost.
+
+## What patterns usually show up?
+
+- Creatives that oversell: flattering angles, ambiguous sizing, heavy filters. More clicks, more returns.
+
+- Discount-heavy campaigns: lower commitment buyers who return more readily.
+
+- Broad prospecting at saturation: marginal buyers with weaker intent, as described in our diminishing returns guide (/blog/budget-reallocation-diminishing-returns/).
+
+- Specific products: fit-sensitive items that return heavily regardless of campaign.
+
+## What can marketing change?
+
+More than you might expect. Returns are often treated as an operations problem, but ads set expectations. Practical levers include:
+
+- Showing the product honestly: real fabric, real fit, people of different builds.
+
+- Putting sizing guidance in the creative or first landing view.
+
+- Reducing discount depth on campaigns whose buyers return most.
+
+- Moving budget towards creatives with lower return-adjusted cost per kept order.
+
+- Excluding repeat serial returners from retargeting audiences where policy allows.
+
+This is where honest creative and profitable creative turn out to be the same thing. An ad that earns a click by setting accurate expectations tends to earn a customer who keeps the product.
+
+## Definitions
+
+- Return rate: returned value as a share of sold value in a period.
+
+- Return-adjusted CPA: ad spend divided by orders that were kept.
+
+- Return window lag: the delay before returns for a period are fully known.
+
+## How does audience insight help reduce returns?
+
+Return reasons are a rich source of audience truth: "smaller than expected", "colour different", "not as pictured". Read alongside what people say about a category in social conversation, they tell you which expectations your creative must set. SOMIN, an AI audience-research platform, decodes the tensions and tones in what real audiences post; SOMIN for brands (https://somin.ai/somin-for-brands/) outlines how brand teams use that. The Miraflora case study on somin.ai (https://somin.ai/brands-miraflora-case-study/) is a good example of brand work grounded in audience evidence.
+
+For the content side, our sister consultancy Mindfuse (https://mindfuse.sg/) works on the consumer psychology behind purchase decisions in Southeast Asia, including the cultural expectations that shape what buyers assume a product will be.
+
+## A worked example: two creatives, one product
+
+Consider two illustrative creatives selling the same dress. Creative one is a glossy studio shot with a dramatic angle; it earns a high CTR and the most purchases. Creative two shows the dress on two different body types in daylight with a visible size guide; it earns fewer clicks and somewhat fewer purchases. On platform ROAS, creative one wins clearly. Then returns arrive. Creative one's buyers return a large share, often citing fit and colour. Creative two's buyers keep most of what they ordered. Once returns, return shipping and restocking costs are netted out, creative two delivers more profit per unit of spend, and its return-adjusted CPA is lower. The algorithm, left alone, would have kept funding creative one.
+
+The lesson is not that glossy creative is bad. It is that clickability and keepability are different things, and you need to measure both. Score for clickability before launch; judge on kept orders after it.
+
+## What about returns on Google Shopping?
+
+Shopping and Performance Max campaigns are driven by product feeds, so returns there often concentrate on specific products rather than creatives. Review return rates by product ID, and consider lowering bids or excluding persistent high-return items from paid campaigns until the product page or sizing information is fixed.
+
+The cheapest return to process is the one your ad never caused.
+
+## How Trafix tracks returns
+
+Trafix joins returns data to orders and orders to campaigns and creatives, then shows return-adjusted figures next to platform ones: return rate, return-adjusted CPA and true-profit ROAS. Recent weeks are marked as provisional until the return window closes, so you do not overreact to incomplete data. Creatives with high return rates are flagged, and their replacements can be scored before launch for clickability, with the brief adjusted to set clearer expectations.
+
+The goal is not fewer sales. It is more kept sales per unit of spend, which is the only kind that pays the bills.
+
+
+# The 30-minute weekly paid media profit review
+URL: https://trafix.app/blog/weekly-paid-media-profit-review/ · Published 2026-07-06
+
+A weekly paid media profit review is a 30-minute meeting where you check blended MER, true-profit ROAS by campaign and creative health, then make three decisions: which creatives to rest, where to move budget, and which new concepts to test. It replaces long dashboard tours with a fixed agenda that ends in action.
+
+## Why weekly, and why 30 minutes?
+
+Daily reviews overreact to noise. Monthly reviews let fatigued creatives and saturated campaigns run for weeks. Weekly matches the rhythm of the platforms: enough data for signals to stabilise, frequent enough to catch problems early. Thirty minutes forces focus. If the meeting runs long, it is because the data is not prepared, and that is a tooling problem to fix rather than a reason to meet longer.
+
+This ritual is the practical answer to the overwhelming data dilemma (/blog/overwhelming-data-dilemma/): fewer numbers, fixed order, decisions at the end.
+
+## The agenda
+
+### Minutes 0 to 5: the headline
+
+Blended MER this week against the four-week average. If it moved more than your tolerance, note it and look for the cause in the next section. Do not debate it yet.
+
+### Minutes 5 to 15: campaigns on profit
+
+True-profit ROAS for each campaign, ranked. Highlight any below your floor and any with rising marginal cost. Check the overlap note for branded search and retargeting, as explained in our double counting article (/blog/meta-google-double-counting/).
+
+### Minutes 15 to 22: creative health
+
+Count healthy, watch and rest creatives. For each "rest", confirm a replacement is ready and scored. For each "watch", decide whether to let it run another week.
+
+### Minutes 22 to 30: decisions
+
+- Creatives to rest this week.
+
+- Budget moves, small and specific.
+
+- New concepts to launch, chosen from the scored shortlist.
+
+Write the three decisions down with an owner. Next week's review starts by checking what happened.
+
+## A pre-meeting checklist
+
+- Order and returns data synced to the end of last week.
+
+- Cost sheet current: fees, shipping, cost of goods.
+
+- Creative health statuses updated.
+
+- New concepts scored for clickability before the meeting, not during it.
+
+- Last week's decisions and their outcomes ready.
+
+## Who should be in the room?
+
+The person who owns paid media, someone who can speak for creative, and, at least monthly, someone from finance. If an agency runs your accounts, they should attend and present from the same profit view you see. That is where evaluating agency performance beyond vanity metrics (/blog/agency-performance-beyond-vanity-metrics/) becomes a weekly habit instead of a quarterly fight.
+
+Keep the group small. A review with eight people becomes a presentation. A review with three becomes a decision.
+
+## Definitions
+
+- Floor: the minimum true-profit ROAS a campaign must sustain to keep its budget.
+
+- Tolerance: the MER movement that triggers investigation rather than a note.
+
+- Scored shortlist: new creatives that passed pre-spend clickability scoring and are ready to launch.
+
+## Where do better ideas come from?
+
+The review tells you what to rest and what to fund. It does not invent new concepts. Those come from understanding what audiences care about right now. SOMIN, an AI audience-research platform, is built for that: its AI agents (https://somin.ai/ai-agents/) research audiences and decode the tensions behind what they post. For a practical example of an agency using that approach, see the SAMY case study on somin.ai (https://somin.ai/agencies-samy-case-study/).
+
+Peers help too. The weekly rhythm here mirrors the format of Marketing Mondays (https://mondays.marketing/), the SOMIN-founded community and YouTube show that decodes one real marketing signal into a clear takeaway every Monday. If you run your profit review on Monday mornings, it makes a natural companion. And for teams that want AI agents to carry more of the research-to-optimisation loop, AgentC (https://agentc.marketing/) in our network runs that model with human strategists owning the calls.
+
+## Common ways the review goes wrong
+
+- Tour instead of agenda. Someone shares a screen and scrolls through every dashboard. Stick to the order above.
+
+- Debating attribution. Use reconciled numbers and park attribution questions for a test, not a meeting.
+
+- No owner for decisions. Every decision needs a name and a date, or it will be discussed again next week.
+
+- Scoring creatives live. Scoring and briefing happen before the meeting; the review only chooses.
+
+- Skipping the follow-up. If you never check what last week's decisions did, the team stops trusting the process.
+
+## How the ritual matures over a quarter
+
+In the first few weeks, most of the time goes on data quality: missing returns, outdated costs, unclear campaign naming. That is normal and valuable. By the second month, the data is stable and the meeting shortens to its core. By the end of the quarter, you have twelve weeks of recorded decisions and outcomes, which is the most useful dataset a paid media team can own. It shows which kinds of budget move worked, how long your creatives typically last, and how well your pre-spend scores predicted live results. Bring that history to your next planning cycle and agency review.
+
+A good review is boring. It is the account that stops surprising you.
+
+## How Trafix runs the review
+
+Trafix prepares the review automatically: MER headline, true-profit ROAS by campaign, overlap notes, creative health statuses, and a scored shortlist of new concepts powered by SOMIN's clickability prediction. Recommended decisions sit at the bottom with reasoning attached. You walk through it in order, accept or change the decisions, and Trafix tracks the outcome for next week.
+
+Thirty minutes, three decisions, every week. Over a quarter, that discipline compounds into an account that is measured, funded and refreshed on profit.
