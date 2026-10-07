@@ -1,28 +1,28 @@
-# Trafix brand guidelines (v1.0, October 2026)
+# FMedia brand guidelines (v1.0, October 2026)
 
-**Positioning:** Trafix is the paid-traffic app that measures Meta and Google ads in profit, not vanity ROAS.
-**Tagline:** Paid traffic, measured in profit
-**Domain / contact:** trafix.app · ask@trafix.app
+**Positioning:** FMedia is the paid media studio that measures Meta and Google ads in profit, not vanity ROAS.
+**Tagline:** Paid media, measured in profit
+**Domain / contact:** fmedia.marketing · ask@fmedia.marketing
 **Technology partner:** SOMIN (somin.ai). Show as "Technology partner SOMIN" with the two-tone SOMIN wordmark (SO teal #2DBF9C, MIN dark/white), never merged into our logo.
 
 ## Logo
-The Trafix mark is a single lime light-trail that bends sharply once: traffic that has been corrected onto the profitable line.
+The FMedia mark is a lowercase coral "f" on midnight navy, finished with a signal dot: one channel, read correctly, landing on the profitable point.
 Files: `brand/logo.svg` (light backgrounds), `brand/logo-dark.svg` (dark backgrounds), `brand/mark.svg` (icon), `favicon.svg`.
 Clear space = height of the mark. Minimum 24 px tall. No recolouring, stretching, outlines or effects.
 
 ## Colour
 | Role | Hex |
 |---|---|
-| Hero / dark surface | `#0E0E10` |
-| Accent | `#C6F432` |
-| Accent text on light | `#4D6B00` |
-| Accent on dark | `#C6F432` |
-| Page | `#FAFAF7` |
-| Card | `#EFF2E6` |
-| Ink | `#0E0E10` |
+| Hero / dark surface | `#0D1024` |
+| Accent | `#FF5B2E` |
+| Accent text on light | `#C2410C` |
+| Accent on dark | `#FF5B2E` |
+| Page | `#FAF8F5` |
+| Card | `#F6EEE8` |
+| Ink | `#0D1024` |
 | Body | `#2A2B2E` |
 | Muted | `#606268` |
-| Lines | `#DADCD3` |
+| Lines | `#E5DCD3` |
 
 ## Typography
 - Headlines: Sora 800, tracking -0.035em, sentence case
@@ -48,7 +48,7 @@ Don't:
 - Hide assumptions inside a single score
 
 ## Imagery
-Electric lime light-trails and flows on matte black, long-exposure speed and motion, abstract data rather than people or screenshots. Never text inside images. All imagery generated with SOMIN image generation; no text in images, no stock, no identifiable real people.
+Electric coral-orange light ribbons and signal flows on deep midnight navy, long-exposure speed and motion, abstract data rather than people or screenshots. Never text inside images. All imagery generated with SOMIN image generation; no text in images, no stock, no identifiable real people.
 
 ## Calls to action
-Every primary CTA ("Audit my ad account") opens an email to ask@trafix.app.
+Every primary CTA ("Audit my ad account") opens an email to ask@fmedia.marketing.
