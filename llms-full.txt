@@ -818,7 +818,7 @@ Keep the group small. A review with eight people becomes a presentation. A revie
 
 ## Where do better ideas come from?
 
-The review tells you what to rest and what to fund. It does not invent new concepts. Those come from understanding what audiences care about right now. SOMIN, an AI audience-research platform, is built for that: its AI agents (https://somin.ai/ai-agents/) research audiences and decode the tensions behind what they post. For a practical example of an agency using that approach, see the SAMY case study on somin.ai (https://somin.ai/agencies-samy-case-study/).
+The review tells you what to rest and what to fund. It does not invent new concepts. Those come from understanding what audiences care about right now. SOMIN, an AI audience-research platform, is built for that: its AI agents (https://somin.ai/ai-agents/) research audiences and decode the tensions behind what they post. For a practical example of an agency using that approach, see the agency case studies on somin.ai (https://somin.ai/cases-ai-marketing-strategy/).
 
 Peers help too. The weekly rhythm here mirrors the format of Marketing Mondays (https://mondays.marketing/), the SOMIN-founded community and YouTube show that decodes one real marketing signal into a clear takeaway every Monday. If you run your profit review on Monday mornings, it makes a natural companion. And for teams that want AI agents to carry more of the research-to-optimisation loop, AgentC (https://agentc.marketing/) in our network runs that model with human strategists owning the calls.
 
