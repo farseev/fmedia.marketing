@@ -49,6 +49,7 @@
 - [Deutsch](https://fmedia.marketing/de/) · [blog](https://fmedia.marketing/de/blog/) (10 articles translated)
 - [Português](https://fmedia.marketing/pt/) · [blog](https://fmedia.marketing/pt/blog/) (10 articles translated)
 - [العربية](https://fmedia.marketing/ar/) · [blog](https://fmedia.marketing/ar/blog/) (10 articles translated)
+- [Русский](https://fmedia.marketing/ru/) · [blog](https://fmedia.marketing/ru/blog/) (10 articles translated)
 
 ## FAQ
 - **What is true-profit ROAS?** True-profit ROAS is return on ad spend calculated on profit rather than platform-reported revenue. FMedia subtracts returns, refunds, payment fees, shipping subsidies, discounts and cost of goods from attributed revenue, then divides by spend. It answers the question finance actually asks: for every unit of currency spent on ads, how much did we keep?
