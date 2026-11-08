@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것</title>
+<meta name="description" content="Meta와 Google이 같은 주문을 모두 자기 성과로 주장하는 이유, 실제 매출 대비 어트리뷰션 중복을 추정하는 방법, 그리고 예산에 주는 의미.">
+<link rel="canonical" href="https://fmedia.marketing/ko/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="en-SG" href="https://fmedia.marketing/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="zh-Hans" href="https://fmedia.marketing/zh-hans/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="zh-Hant" href="https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="ja" href="https://fmedia.marketing/ja/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="ko" href="https://fmedia.marketing/ko/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="x-default" href="https://fmedia.marketing/blog/meta-google-double-counting/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0D1024">
+<meta property="og:site_name" content="FMedia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것">
+<meta property="og:description" content="Meta와 Google은 각자 고유한 어트리뷰션 모델을 쓰고 자신의 접점만 보기 때문에, 두 플랫폼이 같은 주문을 자기 성과로 주장하면서 중복 집계가 발생합니다.">
+<meta property="og:url" content="https://fmedia.marketing/ko/blog/meta-google-double-counting/">
+<meta property="og:image" content="https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것, FMedia">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것">
+<meta name="twitter:description" content="Meta와 Google은 각자 고유한 어트리뷰션 모델을 쓰고 자신의 접점만 보기 때문에, 두 플랫폼이 같은 주문을 자기 성과로 주장하면서 중복 집계가 발생합니다.">
+<meta name="twitter:image" content="https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg">
+<meta name="twitter:image:alt" content="Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것, FMedia">
+<meta name="application-name" content="FMedia"><meta name="apple-mobile-web-app-title" content="FMedia">
+<meta property="article:author" content="FMedia"><meta property="article:published_time" content="2026-08-03"><meta property="article:section" content="측정"><meta name="keywords" content="attribution overlap, double counting, Meta vs Google attribution, cross-channel ROAS, incrementality">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="FMedia 블로그" href="https://fmedia.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Sora','Noto Sans KR',system-ui,sans-serif;--fb:'Inter','Noto Sans KR',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKM75EEBQQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LKM75EEBQQ');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것","description":"Meta와 Google이 같은 주문을 모두 자기 성과로 주장하는 이유, 실제 매출 대비 어트리뷰션 중복을 추정하는 방법, 그리고 예산에 주는 의미.","datePublished":"2026-08-03","dateModified":"2026-08-03","image":["https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg","https://fmedia.marketing/assets/img/a08.webp"],"url":"https://fmedia.marketing/ko/blog/meta-google-double-counting/","mainEntityOfPage":"https://fmedia.marketing/ko/blog/meta-google-double-counting/","keywords":"attribution overlap, double counting, Meta vs Google attribution, cross-channel ROAS, incrementality","articleSection":"측정","inLanguage":"ko","wordCount":936,"author":{"@type":"Organization","name":"FMedia editorial team","url":"https://fmedia.marketing/"},"publisher":{"@id":"https://fmedia.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FMedia","item":"https://fmedia.marketing/ko/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://fmedia.marketing/ko/blog/"},{"@type":"ListItem","position":3,"name":"Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것","item":"https://fmedia.marketing/ko/blog/meta-google-double-counting/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Meta가 제 스토어보다 더 많은 판매를 보고하는 이유는 무엇입니까?","acceptedAnswer":{"@type":"Answer","text":"Meta는 조회 후 전환을 포함해 자체 어트리뷰션 기간 안의 전환을 집계하며, Google이나 다른 채널도 그 주문에 관여했다는 것을 볼 수 없습니다. 그래서 플랫폼 합계가 실제 주문을 넘어섭니다."}},{"@type":"Question","name":"조회 후 전환 어트리뷰션을 꺼야 합니까?","acceptedAnswer":{"@type":"Answer","text":"꼭 그럴 필요는 없습니다. 조회 후 영향은 실재할 수 있습니다. 기간을 줄이거나, 대조된 스토어 매출과 증분 효과 테스트에 비추어 결과를 읽는 것이 대개 더 유용합니다."}},{"@type":"Question","name":"어떤 캠페인에서 중복이 가장 많습니까?","acceptedAnswer":{"@type":"Answer","text":"브랜드 검색, 양쪽 플랫폼의 리타기팅, 그리고 범위가 넓은 Performance Max 캠페인에서 중복 집계가 가장 심하게 나타나는 경향이 있습니다."}}]},{"@type":"Organization","@id":"https://fmedia.marketing/#org","name":"FMedia","url":"https://fmedia.marketing/","logo":"https://fmedia.marketing/brand/logo.svg","email":"ask@fmedia.marketing","description":"FMedia is a paid media profitability studio for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.","slogan":"Paid media, measured in profit","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@fmedia.marketing","contactType":"sales"},"knowsAbout":["CTR decay","Google Ads profit","MER","Meta Google budget","Meta Google costs","Meta ads ROAS","Meta vs Google attribution","SOMIN","ad account audit","ad budget optimisation","ad creative prediction","ad fatigue Meta","ad frequency","ad profitability","ad reporting","ad spend waste","agency performance","agency scorecard","attribution overlap","budget reallocation","creative clickability","creative fatigue","creative refresh","creative scoring","cross-channel ROAS"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"FMedia"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="FMedia 홈"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 로고"><rect width="40" height="40" rx="6" fill="#0D1024"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#FF5B2E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#0D1024">fmedia</tspan><tspan fill="#C2410C">.marketing</tspan></text></svg></a>
+<nav aria-label="메인"><a href="../../index.html#work">사례</a><a href="../../index.html#services">하는 일</a><a href="../index.html">인사이트</a><a href="../../index.html#faq">FAQ</a><a href="../../../brand/index.html">브랜드</a><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">광고 계정 진단받기</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="언어: 한국어"><span>한국어</span></summary><ul><li><a href="../../../blog/meta-google-double-counting/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/meta-google-double-counting/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/meta-google-double-counting/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/meta-google-double-counting/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="이동 경로"><a href="../../index.html">FMedia</a> / <a href="../index.html">블로그</a> / 측정</nav>
+<h1 style="margin-top:18px">Meta와 Google의 중복 집계: 합산 ROAS가 숨기는 것</h1><p class="meta">2026년 8월 3일 · 6분 분량 · FMedia 편집팀 · <a href="#faq">FAQ</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a08.webp" alt="코랄빛과 회색의 두 빛의 강이 같은 빛나는 끝점의 구체를 서로 차지하려는 모습" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">Meta와 Google은 각자 고유한 어트리뷰션 모델을 쓰고 자신의 접점만 보기 때문에, 두 플랫폼이 같은 주문을 자기 성과로 주장하면서 중복 집계가 발생합니다. 따라서 두 플랫폼이 보고한 매출을 합하면 유료 미디어의 실제 성과가 과대평가됩니다. 중복은 플랫폼 매출 합계를 스토어에서 실제로 유료 채널에 귀속된 주문과 비교해 추정합니다.</p>
+<h2>두 플랫폼은 왜 같은 판매를 자기 성과로 주장합니까?</h2>
+<p>한 고객이 화요일에 인스타그램 광고를 보고, 목요일에 브랜드를 검색해 Google 광고를 클릭하고 구매합니다. Meta는 자체 기간 안의 조회 후 전환이나 클릭 후 전환으로 기록합니다. Google은 클릭 전환으로 기록합니다. 둘 다 자신이 관찰한 것에 대해 정직합니다. 어느 쪽도 다른 쪽을 알지 못합니다. 한편 재무팀은 주문 하나를 봅니다.</p>
+<p>이를 수천 건의 주문으로 곱하면 플랫폼 합산 ROAS는 현실보다 훨씬 높아질 수 있습니다. 이는 <a href="../hidden-costs-in-advertising/index.html">숨은 비용 체크리스트</a>에 저희가 올린 가장 흔한 숨은 비용 중 하나이면서, 누구의 대시보드에도 나타나지 않기 때문에 가장 적게 논의되는 비용 중 하나입니다.</p>
+<h2>중복은 어떻게 추정합니까?</h2>
+<ol>
+<li>최소 4주의 기간을 잡습니다.</li>
+<li>Meta가 보고한 구매 매출과 Google이 보고한 전환 매출을 더합니다.</li>
+<li>스토어에서 UTM이나 클릭 ID를 사용해, 유료 접점이 하나라도 있었던 주문의 매출을 가져옵니다.</li>
+<li>둘의 비율이 중복 계수입니다. 플랫폼 합계가 스토어의 유료 매출을 크게 웃돈다면 중복 집계가 심하다는 뜻입니다.</li>
+<li>캠페인 유형별로 반복합니다. 대개 브랜드 검색과 리타기팅에서 중복이 가장 큽니다.</li>
+</ol>
+<p>이 방법은 완벽하지 않습니다. 스토어 추적은 조회 후 영향의 일부를 놓치며, 그 영향은 실재합니다. 하지만 플랫폼 합계가 주지 못하는 것, 즉 유료 미디어가 만들어 낼 수 있었던 성과의 방어 가능한 상한을 알려 줍니다.</p>
+<h2>중복은 어디에 집중됩니까?</h2>
+<ul>
+<li><strong>브랜드 검색:</strong> 이미 Meta가 설득한 사람들을 붙잡는 경우가 많습니다.</li>
+<li><strong>양쪽 플랫폼의 리타기팅:</strong> 두 네트워크가 같은 장바구니 이탈 고객을 쫓습니다.</li>
+<li><strong>Performance Max:</strong> 브랜드 및 리마케팅 트래픽이 포함될 수 있는 넓은 인벤토리.</li>
+<li><strong>긴 조회 후 전환 기간:</strong> 광고를 보고 나중에 다른 경로로 구매한 사람에 대해 Meta가 성과를 가져갑니다.</li>
+</ul>
+<h2>어떻게 대응해야 합니까?</h2>
+<p>어느 플랫폼이 "진짜로" 판매의 공을 받아야 하는지 결론 내리려 하지 마십시오. 그 논쟁에는 승자가 없습니다. 대신 세 가지 심판을 쓰십시오.</p>
+<ul>
+<li>유료 미디어 전체의 건강도를 위한 <strong>통합 MER</strong>.</li>
+<li>각 캠페인을 위한 <strong>실제 주문과 대조한 진짜 수익 기준 ROAS</strong>.</li>
+<li>브랜드 검색 같은 큰 질문을 위한 지역별 일시 중지 등의 <strong>증분 효과 테스트</strong>.</li>
+</ul>
+<p>그런 다음 <a href="../budget-reallocation-diminishing-returns/index.html">예산 재배분 가이드</a>에서 설명한 대로 한계 수익을 기준으로 예산을 결정하십시오.</p>
+<h2>용어 정의</h2>
+<ul>
+<li><strong>어트리뷰션 기간:</strong> 클릭이나 조회 후 플랫폼이 전환을 자기 성과로 인정하는 기간.</li>
+<li><strong>조회 후 전환:</strong> 클릭되지 않고 조회만 된 광고에 귀속된 구매.</li>
+<li><strong>중복 계수:</strong> 플랫폼이 보고한 매출 합계를 스토어에 기록된 유료 매출로 나눈 값.</li>
+</ul>
+<h2>에이전시와 팀에게 이것이 중요한 이유</h2>
+<p>별도의 에이전시가 Meta와 Google을 운영하면, 각자 자기 플랫폼 합계를 보고하고 둘 다 훌륭해 보입니다. 브랜드는 성과 인정으로는 두 번, 현금으로는 한 번 지불합니다. 공유되고 대조된 수익 뷰가 이를 조용히 끝냅니다. 저희가 <a href="../agency-performance-beyond-vanity-metrics/index.html">에이전시 스코어카드 글</a>에서 다룬 것처럼 에이전시를 수익 기여로 평가하자고 주장하는 이유이기도 합니다.</p>
+<p>크로스채널 측정은 더 넓은 문제이기도 합니다. 오디언스는 플랫폼 사이를 오가고, 이를 일관되게 측정할 수 있는 팀은 드뭅니다. <a href="https://somin.ai/somin-paid-media/" rel="noopener">SOMIN의 유료 미디어 인텔리전스</a>는 한 플랫폼의 여정 관점에 의존하는 대신 채널 전반에서 사람들이 무엇에 반응하는지 읽으며 오디언스 측면에서 이 문제에 접근합니다. 에이전시 사례는 <a href="https://somin.ai/agencies-click2view-asia-case-study/" rel="noopener">somin.ai의 Click2View Asia 사례 연구</a>를 참고하십시오.</p>
+<p>추론 모델과 에이전틱 워크플로를 중심으로 측정 체계를 다시 구축하고 계시다면, 저희 자매 스튜디오 <a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a>이 바로 그 재설계를 CMO와 함께 합니다.</p>
+<h2>중복 계산 예시</h2>
+<p>4주 동안 Meta가 구매 매출 60,000을, Google이 50,000을 보고해 합계가 110,000이라고 가정해 봅시다. 스토어에서는 유료 접점이 하나라도 있었던 주문의 매출이 75,000으로 나타납니다. 중복 계수는 110,000을 75,000으로 나눈 약 1.47입니다. 쉽게 말해 실제 유료 매출 한 단위당 플랫폼들이 합쳐서 약 1.5단위를 주장하는 셈입니다. 광고비 25,000에 대한 플랫폼 합산 ROAS가 4.4로 보였다면, 반품이나 수수료를 반영하기 전에도 대조한 수치는 3.0에 가깝습니다. 이제 같은 계산을 캠페인 유형별로 나눠 보십시오. 잠재 고객 캠페인은 중복이 거의 없는 반면 브랜드 검색과 리타기팅은 중복이 심하다는 것을 발견할 수도 있습니다. 그 분류가 어디부터 테스트할지 알려 줍니다.</p>
+<h2>간단한 증분 효과 테스트는 어떻게 실행합니까?</h2>
+<p>한 지역이나 비교 가능한 여러 지역을 고르십시오. 테스트 지역에서는 한 캠페인 유형, 예를 들어 브랜드 검색을 2~4주 동안 일시 중지하거나 크게 줄이고, 대조 지역은 그대로 둡니다. 테스트 지역과 대조 지역 사이에서 플랫폼 전환이 아니라 전체 주문을 비교하십시오. 전체 주문이 거의 변하지 않는다면, 그 캠페인은 대부분 어차피 일어났을 판매를 자기 성과로 주장하고 있었던 것입니다. 줄어든다면 실제로 판매를 더하고 있었던 것이며, 이제 대략 얼마나 더했는지 알 수 있습니다. 테스트는 단순하게, 그리고 주간 노이즈를 벗어날 만큼 길게 유지하십시오. 깔끔한 작은 테스트가 야심차지만 지저분한 테스트보다 낫습니다.</p><p>중복이 어느 한 플랫폼을 불신할 이유는 아닙니다. 두 플랫폼 모두 누가 언제 무엇을 보았는지에 대한 필수적인 시그널 원천입니다. 핵심은 그들의 주장을 더해서 그 합계를 성장이라고 부르는 일을 멈추고, 비즈니스가 실제로 배송하고 유지한 주문과 일치하는 숫자로 예산을 결정하는 것입니다.</p><blockquote>두 대시보드가 하나의 판매를 주장하는 것은 성장이 아닙니다. 장부 정리의 문제입니다.</blockquote>
+<h2>FMedia가 중복을 다루는 방법</h2>
+<p>FMedia는 Meta와 Google을 나란히 읽고, 두 플랫폼이 주장하는 전환을 스토어의 실제 주문과 대조합니다. 캠페인 유형별 중복 계수를 보고하고, 각 플랫폼 자체 수치와 함께 대조된 매출 기준의 진짜 수익 기준 ROAS를 보여 줍니다. 중복 집계가 가장 심한 곳, 대개 브랜드 검색과 리타기팅을 확인하고 그 영역부터 테스트하거나 상한을 둘 수 있습니다. 누구의 모델이 맞는지 더 이상 논쟁할 필요 없이, 두 팀이 함께 쓸 수 있는 하나의 수익 숫자만 남습니다.</p>
+<section id="faq" style="padding:40px 0 0"><h2>자주 묻는 질문</h2><details><summary>Meta가 제 스토어보다 더 많은 판매를 보고하는 이유는 무엇입니까?</summary><p>Meta는 조회 후 전환을 포함해 자체 어트리뷰션 기간 안의 전환을 집계하며, Google이나 다른 채널도 그 주문에 관여했다는 것을 볼 수 없습니다. 그래서 플랫폼 합계가 실제 주문을 넘어섭니다.</p></details><details><summary>조회 후 전환 어트리뷰션을 꺼야 합니까?</summary><p>꼭 그럴 필요는 없습니다. 조회 후 영향은 실재할 수 있습니다. 기간을 줄이거나, 대조된 스토어 매출과 증분 효과 테스트에 비추어 결과를 읽는 것이 대개 더 유용합니다.</p></details><details><summary>어떤 캠페인에서 중복이 가장 많습니까?</summary><p>브랜드 검색, 양쪽 플랫폼의 리타기팅, 그리고 범위가 넓은 Performance Max 캠페인에서 중복 집계가 가장 심하게 나타나는 경향이 있습니다.</p></details></section>
+<div class="cta-box"><h2>광고 계정 진단받기</h2><p>FMedia는 허영 ROAS를 반품, 수수료, 할인을 제한 진짜 수익 기준 ROAS로 바꿉니다. 그런 다음 어떤 크리에이티브가 지쳐 가는지, 예산을 어디로 옮겨야 하는지, 어떤 새 광고가 비용을 들여 테스트할 가치가 있는지 알려 드립니다.</p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia%20%28re%3A%20Meta%20and%20Google%20double%20counting%3A%20what%20your%20combined%20ROAS%20hides%29">ask@fmedia.marketing으로 이메일 보내기 →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>계속 읽기</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../overwhelming-data-dilemma/index.html"><img src="../../../assets/img/a07-640.webp" alt="엉킨 빛의 리본들이 소용돌이치다 프리즘을 통과해 미드나이트 네이비 위의 선명한 코랄빛 한 줄기로 모이는 모습" width="640" height="427" loading="lazy"><div class="b"><span class="tag">측정</span><h3>넘쳐나는 데이터의 딜레마: 중요한 숫자 세 가지</h3><p>유료 미디어 팀은 대시보드에 파묻혀 있습니다. Meta와 Google에서 수익성 있는 결정을 이끄는 세 가지 숫자와 무시해도 되는 것.</p><div class="meta" style="margin-top:12px">2026년 8월 10일 · 6분 분량</div></div></a><a class="post-card" href="../returns-and-ad-profitability/index.html"><img src="../../../assets/img/a09-640.webp" alt="빛의 리본을 타고 바깥으로 이동하는 코랄빛 와이어프레임 택배 상자들과, 그중 몇 개가 역방향 호를 그리며 되돌아오는 모습" width="640" height="427" loading="lazy"><div class="b"><span class="tag">수익성</span><h3>반품과 광고 수익성: 이커머스의 사각지대</h3><p>상품 반품이 Meta와 Google 광고 수익을 조용히 갉아먹는 방식, 반품을 캠페인과 크리에이티브에 연결하는 방법, 그리고 바꿔야 할 것.</p><div class="meta" style="margin-top:12px">2026년 7월 20일 · 6분 읽기</div></div></a><a class="post-card" href="../weekly-paid-media-profit-review/index.html"><img src="../../../assets/img/a10-640.webp" alt="미드나이트 네이비 위의 고요하게 빛나는 중심 주위로 코랄빛 리본들이 주간 루프를 이루며 원형 궤도를 도는 모습" width="640" height="427" loading="lazy"><div class="b"><span class="tag">플레이북</span><h3>30분 주간 유료 미디어 수익 점검</h3><p>Meta와 Google 광고주를 위한 실용적인 주간 루틴: 30분 동안 수익, 크리에이티브 상태, 예산을 점검하고 세 가지를 결정하십시오.</p><div class="meta" style="margin-top:12px">2026년 7월 6일 · 6분 분량</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 로고"><rect width="40" height="40" rx="6" fill="#FF5B2E"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#0D1024" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#FFFFFF">fmedia</tspan><tspan fill="#FF5B2E">.marketing</tspan></text></svg></div><p style="max-width:30em">FMedia는 Meta와 Google 광고를 허영 ROAS가 아니라 수익으로 측정하는 유료 미디어 스튜디오입니다.</p>
+<p class="partner">기술 파트너 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">광고 계정 진단받기</a></p>
+<p>이메일 <a href="mailto:ask@fmedia.marketing">ask@fmedia.marketing</a></p></div>
+<div><h4>FMedia</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">하는 일</a></li><li><a href="../index.html">인사이트</a></li><li><a href="../../index.html#about">소개</a></li><li><a href="../../index.html#faq">FAQ</a></li><li><a href="../../../brand/index.html">브랜드 가이드라인</a></li><li><a href="https://fmedia.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">사례 연구</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">브랜드용</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">에이전시용</a></li></ul></div>
+</div>
+<h4>네트워크</h4>
+<nav class="network" aria-label="자매 회사"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>매주 월요일 해독하는 하나의 실제 시그널</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>검증할 수 있는 상시 리스닝</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>에이전트가 연주하고, 사람이 지휘합니다.</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6년간 쌓아 온 AI 콘텐츠 역량</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>추론 모델 시대에 맞게 재설계한 마케팅</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>동남아시아를 위해 해독한 소비자 심리와 문화</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search, Neural answers, Mentions. 하나의 러시.</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 FMedia · fmedia.marketing · 싱가포르. </p>
+</div></footer>
+</body></html>
