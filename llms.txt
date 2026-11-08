@@ -32,6 +32,10 @@
 - [Returns and ad profitability: the e-commerce blind spot](https://fmedia.marketing/blog/returns-and-ad-profitability/): How product returns quietly erode Meta and Google ad profit, how to tie returns back to campaigns and creatives, and what to change.
 - [The 30-minute weekly paid media profit review](https://fmedia.marketing/blog/weekly-paid-media-profit-review/): A practical weekly ritual for Meta and Google advertisers: check profit, creative health and budget in 30 minutes, then make three decisions.
 
+## Other languages
+
+- [简体中文](https://fmedia.marketing/zh-hans/) · [blog](https://fmedia.marketing/zh-hans/blog/) (10 articles translated)
+
 ## FAQ
 - **What is true-profit ROAS?** True-profit ROAS is return on ad spend calculated on profit rather than platform-reported revenue. FMedia subtracts returns, refunds, payment fees, shipping subsidies, discounts and cost of goods from attributed revenue, then divides by spend. It answers the question finance actually asks: for every unit of currency spent on ads, how much did we keep?
 - **Does FMedia change my campaigns automatically?** No. FMedia reads data from Meta and Google and makes recommendations: rest this creative, move this budget, test this concept first. You approve every change in your ad accounts. We think profit decisions need a human owner, and the reasoning behind each recommendation is shown so you can challenge it.

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>真实利润 ROAS：为什么 400% 的回报可能在亏钱</title>
+<meta name="description" content="平台 ROAS 忽略了退货、费用和折扣。本文介绍如何计算 Meta 和 Google 广告的真实利润 ROAS，并附实例。">
+<link rel="canonical" href="https://fmedia.marketing/zh-hans/blog/true-profit-roas/">
+<link rel="alternate" hreflang="en-SG" href="https://fmedia.marketing/blog/true-profit-roas/">
+<link rel="alternate" hreflang="zh-Hans" href="https://fmedia.marketing/zh-hans/blog/true-profit-roas/">
+<link rel="alternate" hreflang="x-default" href="https://fmedia.marketing/blog/true-profit-roas/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0D1024">
+<meta property="og:site_name" content="FMedia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="真实利润 ROAS：为什么 400% 的回报可能在亏钱">
+<meta property="og:description" content="真实利润 ROAS 是基于您实际留下的钱、而不是平台报告的收入计算的广告支出回报。">
+<meta property="og:url" content="https://fmedia.marketing/zh-hans/blog/true-profit-roas/">
+<meta property="og:image" content="https://fmedia.marketing/assets/img/og/true-profit-roas.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="真实利润 ROAS：为什么 400% 的回报可能在亏钱，FMedia">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_SG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="真实利润 ROAS：为什么 400% 的回报可能在亏钱">
+<meta name="twitter:description" content="真实利润 ROAS 是基于您实际留下的钱、而不是平台报告的收入计算的广告支出回报。">
+<meta name="twitter:image" content="https://fmedia.marketing/assets/img/og/true-profit-roas.jpg">
+<meta name="twitter:image:alt" content="真实利润 ROAS：为什么 400% 的回报可能在亏钱，FMedia">
+<meta name="application-name" content="FMedia"><meta name="apple-mobile-web-app-title" content="FMedia">
+<meta property="article:author" content="FMedia"><meta property="article:published_time" content="2026-10-05"><meta property="article:section" content="盈利能力"><meta name="keywords" content="true-profit ROAS, vanity ROAS, ad profitability, Meta ads ROAS, Google Ads profit">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="FMedia 博客" href="https://fmedia.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Sora','Noto Sans SC',system-ui,sans-serif;--fb:'Inter','Noto Sans SC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKM75EEBQQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LKM75EEBQQ');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"真实利润 ROAS：为什么 400% 的回报可能在亏钱","description":"平台 ROAS 忽略了退货、费用和折扣。本文介绍如何计算 Meta 和 Google 广告的真实利润 ROAS，并附实例。","datePublished":"2026-10-05","dateModified":"2026-10-05","image":["https://fmedia.marketing/assets/img/og/true-profit-roas.jpg","https://fmedia.marketing/assets/img/a01.webp"],"url":"https://fmedia.marketing/zh-hans/blog/true-profit-roas/","mainEntityOfPage":"https://fmedia.marketing/zh-hans/blog/true-profit-roas/","keywords":"true-profit ROAS, vanity ROAS, ad profitability, Meta ads ROAS, Google Ads profit","articleSection":"盈利能力","inLanguage":"zh-Hans","wordCount":1059,"author":{"@type":"Organization","name":"FMedia editorial team","url":"https://fmedia.marketing/"},"publisher":{"@id":"https://fmedia.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FMedia","item":"https://fmedia.marketing/zh-hans/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://fmedia.marketing/zh-hans/blog/"},{"@type":"ListItem","position":3,"name":"真实利润 ROAS：为什么 400% 的回报可能在亏钱","item":"https://fmedia.marketing/zh-hans/blog/true-profit-roas/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什么样的真实利润 ROAS 算好？","acceptedAnswer":{"@type":"Answer","text":"任何高于 1.0 的数字都意味着广告在毛利层面收回了成本。什么算好，取决于您的日常开支和客户终身价值。许多团队为拓客设定一个略高于 1.0 的底线，为再营销设定更高的底线。"}},{"@type":"Question","name":"盈亏平衡 ROAS 如何计算？","acceptedAnswer":{"@type":"Answer","text":"盈亏平衡 ROAS 等于 1 除以扣除退货、费用、折扣和商品成本后的实际利润率。如果每单位报告收入中有 35% 作为毛利留下，盈亏平衡的平台 ROAS 大约是 2.9。"}},{"@type":"Question","name":"不用应用能计算真实利润 ROAS 吗？","acceptedAnswer":{"@type":"Answer","text":"可以，在电子表格中使用品类退货率和综合费用率即可。FMedia 会按营销活动自动匹配订单、退货和成本，并每周保持更新，而手动版本通常正是在这一环节难以为继。"}}]},{"@type":"Organization","@id":"https://fmedia.marketing/#org","name":"FMedia","url":"https://fmedia.marketing/","logo":"https://fmedia.marketing/brand/logo.svg","email":"ask@fmedia.marketing","description":"FMedia is a paid media profitability studio for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.","slogan":"Paid media, measured in profit","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@fmedia.marketing","contactType":"sales"},"knowsAbout":["CTR decay","Google Ads profit","MER","Meta Google budget","Meta Google costs","Meta ads ROAS","Meta vs Google attribution","SOMIN","ad account audit","ad budget optimisation","ad creative prediction","ad fatigue Meta","ad frequency","ad profitability","ad reporting","ad spend waste","agency performance","agency scorecard","attribution overlap","budget reallocation","creative clickability","creative fatigue","creative refresh","creative scoring","cross-channel ROAS"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"FMedia"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至正文</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="FMedia 首页"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 标志"><rect width="40" height="40" rx="6" fill="#0D1024"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#FF5B2E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#0D1024">fmedia</tspan><tspan fill="#C2410C">.marketing</tspan></text></svg></a>
+<nav aria-label="主导航"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我们做什么</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常见问题</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">审计我的广告账户</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="语言: 简体中文"><span>简中</span></summary><ul><li><a href="../../../blog/true-profit-roas/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="index.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="面包屑导航"><a href="../../index.html">FMedia</a> / <a href="../index.html">博客</a> / 盈利能力</nav>
+<h1 style="margin-top:18px">真实利润 ROAS：为什么 400% 的回报可能在亏钱</h1><p class="meta">2026 年 10 月 5 日 · 阅读约 7 分钟 · FMedia 编辑团队 · <a href="#faq">常见问题</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a01.webp" alt="一条珊瑚色光带如收入般上升，细流不断剥离，在午夜藏青色背景上留下一道更细的真实利润光束" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">真实利润 ROAS 是基于您实际留下的钱、而不是平台报告的收入计算的广告支出回报。用归因收入减去退货、退款、支付手续费、运费补贴、折扣和商品成本，再除以广告支出。一个报告 400% ROAS 的营销活动，在扣除这些成本后可能低于盈亏平衡。</p>
+<h2>为什么平台 ROAS 会美化您的营销活动？</h2>
+<p>Meta 和 Google 报告的是它们能观察到的东西：一次点击或浏览，随后是一个附带金额的购买事件。这个金额通常是结账时的购物车总额。平台不知道某个品类中三分之一的包裹会被退回，不知道您的支付处理商会从每笔交易中抽取一部分，也不知道这笔订单之所以发生，只是因为弹窗里正好有一个 20% 的新客优惠码。平台并没有撒谎，只是它们回答的问题比您的业务需要回答的问题更窄。</p>
+<p>麻烦始于这个狭义的数字成为目标之时。出价算法朝它优化，代理商以它被评判，预算向数字最大的营销活动倾斜。如果数字最大的那个恰好也是退货率最高或折扣最深的，您就是在满怀信心地放大亏损。在 FMedia，我们称之为追逐幻象：仪表板看起来像是机会，真正的机会却在别处，无人投资。</p>
+<h2>真实利润 ROAS 的计算包含哪些内容？</h2>
+<p>结构很简单，尽管收集输入数据需要自律。从归因于某个营销活动的收入开始，一路向下算到扣除广告后的贡献。</p>
+<ul>
+<li><strong>归因收入：</strong>平台报告的数字，最好对照您店铺中的真实订单进行核对。</li>
+<li><strong>退货和退款：</strong>被退回或退款的订单金额，尽可能匹配到对应的营销活动，或按产品品类估算。</li>
+<li><strong>折扣：</strong>折扣码、自动促销和组合优惠，前提是平台记录的金额是在这些优惠生效之前采集的。</li>
+<li><strong>支付和平台手续费：</strong>每笔交易的比例费用和固定费用。</li>
+<li><strong>运输和履约补贴：</strong>顾客支付的运费与您实际承担的成本之间的差额。</li>
+<li><strong>商品成本：</strong>已售出且未退货商品的到岸成本。</li>
+</ul>
+<p>真实利润 ROAS 就是剩余的毛利除以广告支出。结果为 1.0，意味着广告在毛利层面刚好收回成本，仅此而已。低于 1.0，每多花一个单位都会让窟窿更大。</p>
+<h2>一个实例</h2>
+<p>以一个示意性的服装营销活动为例：支出 10,000，平台报告收入 40,000。这就是标题上的 400% ROAS。现在用一些取整的假设数字计入成本，您应当用自己的数字替换它们。</p>
+<ol>
+<li>按金额 30% 计的退货扣除 12,000，剩下 28,000 的未退货收入。</li>
+<li>平台金额未反映的折扣码再扣除 2,000，剩下 26,000。</li>
+<li>约 3% 的支付手续费扣除约 800，剩下 25,200。</li>
+<li>未退货订单的免运费补贴扣除 1,500，剩下 23,700。</li>
+<li>按未退货收入 45% 计的商品成本扣除约 10,700，剩下 13,000 的毛利。</li>
+</ol>
+<p>在一万的支出上赚得一万三的利润，真实利润 ROAS 就是 1.3。仍然为正，但与写进月报的 4.0 相去甚远。现在设想第二个营销活动，平台 ROAS 为 300%，退货率 10%，没有折扣。用同样的方法计算，它很容易就能胜过第一个。这种反转正是关键所在：按平台 ROAS 和按真实利润 ROAS 为营销活动排序，往往会得出不同的名单，而只有其中一份应该驱动预算。</p>
+<h2>值得在内部统一的定义</h2>
+<ul>
+<li><strong>平台 ROAS：</strong>Meta 或 Google 报告的归因收入除以支出。</li>
+<li><strong>盈亏平衡 ROAS：</strong>广告后真实利润为零时的平台 ROAS。它会随着退货、费用和折扣的增加而上升。</li>
+<li><strong>真实利润 ROAS：</strong>未退货订单的毛利除以支出。</li>
+<li><strong>MER（营销效率比）：</strong>总收入除以总营销支出，这是一项完全不考虑归因的实用合理性检查。</li>
+</ul>
+<p>把您的盈亏平衡 ROAS 写在墙上。如果一个营销活动报告的是 2.5，而您的盈亏平衡点是 2.8，那么无论仪表板上那一格多么绿，它都在亏钱。</p>
+<h2>真实利润 ROAS 在哪些地方改变决策？</h2>
+<p>根据我们打造 FMedia 的经验，有三个地方。第一，预算分配：一旦按利润为营销活动排序，支出的流向就会不同，我们在<a href="../budget-reallocation-diminishing-returns/index.html">预算重新分配与回报递减指南</a>中对此有介绍。第二，创意：一条带来高退货率冲动购买的创意，可能看起来像赢家，实际上却在失血。第三，与代理商的对话：当所有人都认同同一个利润数字时，评估就不再是关于归因窗口的争论。</p>
+<p>它还会改变您测试的内容。如果高退货率产品在拓客营销活动中占主导，答案可能是一条能更准确设定预期的创意，而不是更大的预算。这正是在投放前为创意评分的用武之地。FMedia 使用 <a href="https://somin.ai/somin-paid-media/" rel="noopener">SOMIN 的付费媒体情报</a>，在新创意进入竞价之前预测其点击潜力，让您花钱测试的候选清单已经过筛选，更偏向真实受众会有反应的概念。</p>
+<h2>数据不完美时如何起步</h2>
+<p>大多数团队之所以推迟这项计算，是因为数据很杂乱。不要等。从品类层面的退货率、一个综合支付手续费率和平均商品成本开始。一个粗略的真实利润 ROAS，远比一个精确的虚荣数字有用。每月细化输入：把退货与订单匹配，从支付处理商那里获取实际费用，按产品线拆分商品成本。</p>
+<p>如果您想了解一种有条理、以证据为先的方法如何在规模化层面改变媒介决策，<a href="https://somin.ai/agencies-kpi-media-case-study/" rel="noopener">somin.ai 上的 KPI Media 案例研究</a>是了解代理商实践的有用参考。至于您的 AI 和分析技术栈究竟是在为决策提供输入，还是只在生成报告这个更广泛的问题，我们在 <a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a> 的朋友们就如何基于可靠证据构建推理工作流程写过不少好文章。</p>
+<blockquote>能让您的业务规模化的数字，是您能在财务面前站得住脚的那个。其他一切都只是情绪。</blockquote>
+<h2>FMedia 如何运用这一点</h2>
+<p>FMedia 连接 Meta 和 Google Ads，将归因收入与真实订单匹配，并自动扣除退货、费用、运费和折扣。每个营销活动、广告组和创意都会在平台数字旁边得到一个真实利润 ROAS，让差距一目了然，而不是靠争论。假设值都有标注且可编辑，因为一个您无法检查的利润数字，不过是另一个黑箱。</p>
+<p>目标不是让您的营销看起来更糟，而是让好的营销活动更容易被发现、获得资金并站得住脚。一个更小但诚实的数字，才是您能够放大的数字。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常见问题</h2><details><summary>什么样的真实利润 ROAS 算好？</summary><p>任何高于 1.0 的数字都意味着广告在毛利层面收回了成本。什么算好，取决于您的日常开支和客户终身价值。许多团队为拓客设定一个略高于 1.0 的底线，为再营销设定更高的底线。</p></details><details><summary>盈亏平衡 ROAS 如何计算？</summary><p>盈亏平衡 ROAS 等于 1 除以扣除退货、费用、折扣和商品成本后的实际利润率。如果每单位报告收入中有 35% 作为毛利留下，盈亏平衡的平台 ROAS 大约是 2.9。</p></details><details><summary>不用应用能计算真实利润 ROAS 吗？</summary><p>可以，在电子表格中使用品类退货率和综合费用率即可。FMedia 会按营销活动自动匹配订单、退货和成本，并每周保持更新，而手动版本通常正是在这一环节难以为继。</p></details></section>
+<div class="cta-box"><h2>审计我的广告账户</h2><p>FMedia 用扣除退货、费用和折扣后的真实利润 ROAS 取代虚荣 ROAS，然后告诉您哪些创意正在疲劳、预算应该调往哪里，以及哪些新广告值得花钱测试。</p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia%20%28re%3A%20True-profit%20ROAS%3A%20why%20your%20400%25%20return%20may%20be%20losing%20money%29">发送邮件至 ask@fmedia.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>继续阅读</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../creative-fatigue-signals/index.html"><img src="../../../assets/img/a02-640.webp" alt="珊瑚色光芒的漂浮广告卡片随着光带放缓而逐渐褪色变暗，置于午夜藏青色背景上" width="640" height="427" loading="lazy"><div class="b"><span class="tag">创意</span><h3>创意疲劳：效果崩盘前的早期信号</h3><p>如何在 ROAS 下滑之前发现 Meta 和 Google 上的创意疲劳：需要关注的信号、每周检查清单，以及何时暂停或更新广告。</p><div class="meta" style="margin-top:12px">2026 年 9 月 21 日 · 阅读约 6 分钟</div></div></a><a class="post-card" href="../agency-performance-beyond-vanity-metrics/index.html"><img src="../../../assets/img/a03-640.webp" alt="一枚珊瑚色透镜揭示出一座中空发光的光之奖杯，其内部是一道更细的实心光束，置于午夜藏青色背景上" width="640" height="427" loading="lazy"><div class="b"><span class="tag">代理商</span><h3>如何超越虚荣指标评估代理商表现</h3><p>一份以利润而非平台 ROAS、CTR 或曝光量来评判付费媒体代理商的实用记分卡，附需要提出的问题和需要索取的数据。</p><div class="meta" style="margin-top:12px">2026 年 9 月 14 日 · 阅读约 7 分钟</div></div></a><a class="post-card" href="../hidden-costs-in-advertising/index.html"><img src="../../../assets/img/a04-640.webp" alt="一股快速流动的珊瑚色光流穿过一根管道，细小的裂缝把发光的水滴喷入黑暗" width="640" height="427" loading="lazy"><div class="b"><span class="tag">盈利能力</span><h3>找出 Meta 和 Google 广告中的隐性成本</h3><p>平台仪表板遗漏的七项隐性成本，从归因重叠到折扣流失，以及如何在您自己的数据中逐一找出。</p><div class="meta" style="margin-top:12px">2026 年 9 月 7 日 · 阅读约 7 分钟</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 标志"><rect width="40" height="40" rx="6" fill="#FF5B2E"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#0D1024" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#FFFFFF">fmedia</tspan><tspan fill="#FF5B2E">.marketing</tspan></text></svg></div><p style="max-width:30em">FMedia 是一家以利润而非虚荣 ROAS 衡量 Meta 和 Google 广告的付费媒体工作室。</p>
+<p class="partner">技术合作伙伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">审计我的广告账户</a></p>
+<p>邮箱 <a href="mailto:ask@fmedia.marketing">ask@fmedia.marketing</a></p></div>
+<div><h4>FMedia</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我们做什么</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">关于</a></li><li><a href="../../index.html#faq">常见问题</a></li><li><a href="../../../brand/index.html">品牌指南</a></li><li><a href="https://fmedia.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技术支持</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">面向品牌</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">面向代理商</a></li></ul></div>
+</div>
+<h4>合作网络</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每周一，解读一个真实信号</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可核查的全天候社媒聆听</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>智能体执行，人类指挥。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年 AI 内容创作经验</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>为推理模型重新设计的营销</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>为东南亚解读消费者心理与文化</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>搜索、AI 答案、提及。一次全面冲刺。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 FMedia · fmedia.marketing · 新加坡。 </p>
+</div></footer>
+</body></html>
