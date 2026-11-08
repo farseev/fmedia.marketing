@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼</title>
+<meta name="description" content="為什麼 Meta 與 Google 都把同一筆訂單算成自己的功勞、如何對照真實銷售估算歸因重疊，以及這對預算意味著什麼。">
+<link rel="canonical" href="https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="en-SG" href="https://fmedia.marketing/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="zh-Hans" href="https://fmedia.marketing/zh-hans/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="zh-Hant" href="https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/">
+<link rel="alternate" hreflang="x-default" href="https://fmedia.marketing/blog/meta-google-double-counting/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0D1024">
+<meta property="og:site_name" content="FMedia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼">
+<meta property="og:description" content="當 Meta 與 Google 兩個平台都認領同一筆訂單時，就會發生重複計算，因為各自使用自己的歸因模型，也只看得到自己的接觸點。">
+<meta property="og:url" content="https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/">
+<meta property="og:image" content="https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼，FMedia">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼">
+<meta name="twitter:description" content="當 Meta 與 Google 兩個平台都認領同一筆訂單時，就會發生重複計算，因為各自使用自己的歸因模型，也只看得到自己的接觸點。">
+<meta name="twitter:image" content="https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg">
+<meta name="twitter:image:alt" content="Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼，FMedia">
+<meta name="application-name" content="FMedia"><meta name="apple-mobile-web-app-title" content="FMedia">
+<meta property="article:author" content="FMedia"><meta property="article:published_time" content="2026-08-03"><meta property="article:section" content="成效衡量"><meta name="keywords" content="attribution overlap, double counting, Meta vs Google attribution, cross-channel ROAS, incrementality">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="FMedia 部落格" href="https://fmedia.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Sora','Noto Sans TC',system-ui,sans-serif;--fb:'Inter','Noto Sans TC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKM75EEBQQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LKM75EEBQQ');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼","description":"為什麼 Meta 與 Google 都把同一筆訂單算成自己的功勞、如何對照真實銷售估算歸因重疊，以及這對預算意味著什麼。","datePublished":"2026-08-03","dateModified":"2026-08-03","image":["https://fmedia.marketing/assets/img/og/meta-google-double-counting.jpg","https://fmedia.marketing/assets/img/a08.webp"],"url":"https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/","mainEntityOfPage":"https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/","keywords":"attribution overlap, double counting, Meta vs Google attribution, cross-channel ROAS, incrementality","articleSection":"成效衡量","inLanguage":"zh-Hant","wordCount":936,"author":{"@type":"Organization","name":"FMedia editorial team","url":"https://fmedia.marketing/"},"publisher":{"@id":"https://fmedia.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FMedia","item":"https://fmedia.marketing/zh-hant/"},{"@type":"ListItem","position":2,"name":"部落格","item":"https://fmedia.marketing/zh-hant/blog/"},{"@type":"ListItem","position":3,"name":"Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼","item":"https://fmedia.marketing/zh-hant/blog/meta-google-double-counting/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"為什麼 Meta 回報的銷售比我的商店還多？","acceptedAnswer":{"@type":"Answer","text":"Meta 會計算其歸因期間內的轉換，包括瀏覽型轉換，而且看不到 Google 或其他通路也接觸過同一筆訂單。因此，平台合併總額會超過真實訂單。"}},{"@type":"Question","name":"我應該關閉瀏覽型歸因嗎？","acceptedAnswer":{"@type":"Answer","text":"不一定。瀏覽型影響可能是真實存在的。縮短歸因期間，或對照核對後的商店營收與增量效果測試來判讀成果，通常更有用。"}},{"@type":"Question","name":"哪些活動重疊最多？","acceptedAnswer":{"@type":"Answer","text":"品牌關鍵字搜尋、兩個平台同時進行的再行銷，以及廣泛的 Performance Max 活動，往往出現最嚴重的重複計算。"}}]},{"@type":"Organization","@id":"https://fmedia.marketing/#org","name":"FMedia","url":"https://fmedia.marketing/","logo":"https://fmedia.marketing/brand/logo.svg","email":"ask@fmedia.marketing","description":"FMedia is a paid media profitability studio for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.","slogan":"Paid media, measured in profit","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@fmedia.marketing","contactType":"sales"},"knowsAbout":["CTR decay","Google Ads profit","MER","Meta Google budget","Meta Google costs","Meta ads ROAS","Meta vs Google attribution","SOMIN","ad account audit","ad budget optimisation","ad creative prediction","ad fatigue Meta","ad frequency","ad profitability","ad reporting","ad spend waste","agency performance","agency scorecard","attribution overlap","budget reallocation","creative clickability","creative fatigue","creative refresh","creative scoring","cross-channel ROAS"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"FMedia"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="FMedia 首頁"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 標誌"><rect width="40" height="40" rx="6" fill="#0D1024"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#FF5B2E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#0D1024">fmedia</tspan><tspan fill="#C2410C">.marketing</tspan></text></svg></a>
+<nav aria-label="主選單"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我們的工作</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常見問題</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">稽核我的廣告帳戶</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="語言: 繁體中文"><span>繁中</span></summary><ul><li><a href="../../../blog/meta-google-double-counting/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/meta-google-double-counting/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="導覽路徑"><a href="../../index.html">FMedia</a> / <a href="../index.html">部落格</a> / 成效衡量</nav>
+<h1 style="margin-top:18px">Meta 與 Google 重複計算：合併 ROAS 隱藏了什麼</h1><p class="meta">2026 年 8 月 3 日 · 閱讀時間 6 分鐘 · FMedia 編輯團隊 · <a href="#faq">常見問題</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a08.webp" alt="兩條光之河，一條珊瑚色、一條灰色，都宣稱擁有同一顆發光的終點光球" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">當 Meta 與 Google 兩個平台都認領同一筆訂單時，就會發生重複計算，因為各自使用自己的歸因模型，也只看得到自己的接觸點。因此，將兩者回報的營收相加，會高估付費媒體實際帶來的成果。您可以將平台合併營收與商店中實際歸因於付費管道的訂單進行比較，以估算重疊程度。</p>
+<h2>為什麼兩個平台都會認領同一筆銷售？</h2>
+<p>一位顧客在週二看到一則 Instagram 廣告，週四搜尋您的品牌，點擊了一則 Google 廣告並完成購買。Meta 在其歸因期間內記錄了一次瀏覽型或點擊型轉換；Google 記錄了一次點擊轉換。兩者對自己觀察到的事都很誠實，卻都不知道對方的存在。與此同時，您的財務團隊看到的只有一筆訂單。</p>
+<p>把這種情況乘上數千筆訂單，合併的平台 ROAS 就可能遠高於實際。這是我們在<a href="../hidden-costs-in-advertising/index.html">隱藏成本檢查清單</a>中列出最常見的隱藏成本之一，也是最少被討論的一項，因為沒有任何人的儀表板會顯示它。</p>
+<h2>如何估算重疊程度？</h2>
+<ol>
+<li>取至少四週的期間。</li>
+<li>將 Meta 回報的購買營收與 Google 回報的轉換營收相加。</li>
+<li>從您的商店中，使用 UTM 或點擊 ID，取出所有曾有任何付費接觸點之訂單的營收。</li>
+<li>兩者的比率就是您的重疊係數。平台合併總額若遠高於商店的付費營收，表示存在嚴重的重複計算。</li>
+<li>依活動類型重複計算：品牌關鍵字搜尋與再行銷通常重疊最多。</li>
+</ol>
+<p>這個方法並不完美。商店追蹤會遺漏部分瀏覽型影響，而這種影響是真實存在的。但它能為付費媒體可能帶來的成果提供一個站得住腳的上限，而這是平台總額做不到的。</p>
+<h2>重疊集中在哪裡？</h2>
+<ul>
+<li><strong>品牌關鍵字搜尋：</strong>經常接收到已被 Meta 說服的人。</li>
+<li><strong>兩個平台同時進行再行銷：</strong>兩個聯播網追逐同一批放棄購物車的人。</li>
+<li><strong>Performance Max：</strong>廣泛的廣告空間可能涵蓋品牌與再行銷流量。</li>
+<li><strong>過長的瀏覽型歸因期間：</strong>Meta 將功勞算給那些看過廣告、之後經由其他途徑購買的人。</li>
+</ul>
+<h2>該怎麼處理？</h2>
+<p>不要試圖判定哪個平台「真正」配得上這筆銷售。這場爭論沒有贏家。取而代之，請使用三位裁判：</p>
+<ul>
+<li><strong>混合 MER</strong>，用於評估付費媒體的整體健康度。</li>
+<li><strong>與真實訂單核對過的真實獲利 ROAS</strong>，用於評估每個活動。</li>
+<li><strong>增量效果測試</strong>，例如地區性暫停，用於品牌關鍵字搜尋這類重大問題。</li>
+</ul>
+<p>接著依據邊際獲利做出預算決策，如<a href="../budget-reallocation-diminishing-returns/index.html">我們的預算重新分配指南</a>所述。</p>
+<h2>名詞定義</h2>
+<ul>
+<li><strong>歸因期間：</strong>點擊或瀏覽之後，平台會將轉換歸功於廣告的時間範圍。</li>
+<li><strong>瀏覽型轉換：</strong>歸功於一則被看到但未被點擊之廣告的購買。</li>
+<li><strong>重疊係數：</strong>平台回報的合併營收除以商店記錄的付費營收。</li>
+</ul>
+<h2>這對代理商與團隊為什麼重要</h2>
+<p>當 Meta 與 Google 由不同的代理商操作時，各自回報自己平台的總額，看起來都表現極佳。品牌在功勞上付了兩次，在現金上付了一次。一個共享、經過核對的獲利視圖，能悄悄地終結這種情況。這也是為什麼我們主張依貢獻來評估代理商，如<a href="../agency-performance-beyond-vanity-metrics/index.html">我們的代理商評分卡文章</a>所述。</p>
+<p>跨通路衡量也是一個更廣泛的問題：受眾在平台之間移動，很少有團隊能一致地衡量他們。<a href="https://somin.ai/somin-paid-media/" rel="noopener">SOMIN 的付費媒體智慧</a>從受眾端著手，判讀人們在各通路中對什麼有所回應，而不是依賴單一平台對旅程的看法。代理商的例子請見 <a href="https://somin.ai/agencies-click2view-asia-case-study/" rel="noopener">somin.ai 上的 Click2View Asia 案例研究</a>。</p>
+<p>如果您正圍繞推理模型與代理式工作流程重建成效衡量，我們的姊妹工作室 <a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a> 正是與行銷長們共同進行這類重新設計。</p>
+<h2>一個示意性的重疊計算</h2>
+<p>假設在四週內，Meta 回報 60,000 的購買營收，Google 回報 50,000，合計 110,000。您的商店顯示，曾有任何付費接觸點的訂單營收為 75,000。重疊係數為 110,000 除以 75,000，約為 1.47。白話來說，每一單位真實的付費營收，兩個平台合計認領了約一個半單位。如果在 25,000 的支出上，合併平台 ROAS 看起來是 4.4，那麼核對後的數字在扣除任何退貨或手續費之前，更接近 3.0。現在依活動類型拆分同樣的計算。您可能會發現開發型活動幾乎沒有重疊，而品牌關鍵字搜尋與再行銷則重疊嚴重。這個拆分會告訴您應該先從哪裡測試。</p>
+<h2>如何進行一個簡單的增量效果測試？</h2>
+<p>選擇一個地區或一組可比較的地區。在測試地區中，暫停或大幅縮減某一類活動，例如品牌關鍵字搜尋，為期二到四週，同時讓對照組維持不變。比較測試組與對照組的總訂單數，而不是平台轉換數。如果總訂單幾乎沒有變動，那麼該活動大多是在認領原本就會發生的銷售。如果訂單下降，那它確實在增加銷售，而您現在也大致知道增加了多少。讓測試保持簡單，並且時間夠長以排除每週的雜訊；一個乾淨的小型測試，勝過一個雄心勃勃卻雜亂的測試。</p><p>重疊並不是不信任任何一個平台的理由。兩者仍然是了解誰在何時看到了什麼的重要訊號來源。重點在於不要再把它們的認領相加並稱之為成長，而是依據與企業實際出貨並留存之訂單相符的數字來做預算決策。</p><blockquote>兩個儀表板認領同一筆銷售，不是成長，只是記帳。</blockquote>
+<h2>FMedia 如何處理重疊</h2>
+<p>FMedia 並列判讀 Meta 與 Google，並將它們認領的轉換與您商店的真實訂單比對。它依活動類型回報重疊係數，並以核對後的營收呈現真實獲利 ROAS，同時並列各平台自己的數字。您能看到重複計算最嚴重的地方，通常是品牌關鍵字搜尋與再行銷，並可以優先對這些區塊進行測試或設定上限。不必再爭論誰的模型才正確；只有一個兩個團隊都能據以工作的獲利數字。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常見問題</h2><details><summary>為什麼 Meta 回報的銷售比我的商店還多？</summary><p>Meta 會計算其歸因期間內的轉換，包括瀏覽型轉換，而且看不到 Google 或其他通路也接觸過同一筆訂單。因此，平台合併總額會超過真實訂單。</p></details><details><summary>我應該關閉瀏覽型歸因嗎？</summary><p>不一定。瀏覽型影響可能是真實存在的。縮短歸因期間，或對照核對後的商店營收與增量效果測試來判讀成果，通常更有用。</p></details><details><summary>哪些活動重疊最多？</summary><p>品牌關鍵字搜尋、兩個平台同時進行的再行銷，以及廣泛的 Performance Max 活動，往往出現最嚴重的重複計算。</p></details></section>
+<div class="cta-box"><h2>稽核我的廣告帳戶</h2><p>FMedia 以扣除退貨、手續費與折扣後的真實獲利 ROAS 取代虛榮 ROAS，接著告訴您哪些創意正在疲乏、預算應該移往哪裡，以及哪些新廣告值得花錢測試。</p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia%20%28re%3A%20Meta%20and%20Google%20double%20counting%3A%20what%20your%20combined%20ROAS%20hides%29">寄信至 ask@fmedia.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>延伸閱讀</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../overwhelming-data-dilemma/index.html"><img src="../../../assets/img/a07-640.webp" alt="一場糾結的光帶風暴穿過稜鏡匯聚成一道清晰的珊瑚色光束，背景為午夜藏青色" width="640" height="427" loading="lazy"><div class="b"><span class="tag">成效衡量</span><h3>數據過載的困境：真正重要的三個數字</h3><p>付費媒體團隊被淹沒在儀表板中。以下是驅動 Meta 與 Google 獲利決策的三個數字，以及哪些可以忽略。</p><div class="meta" style="margin-top:12px">2026 年 8 月 10 日 · 閱讀時間 6 分鐘</div></div></a><a class="post-card" href="../returns-and-ad-profitability/index.html"><img src="../../../assets/img/a09-640.webp" alt="由珊瑚色光芒構成的線框包裹沿著光帶向外移動，其中幾個以反向弧線繞回" width="640" height="427" loading="lazy"><div class="b"><span class="tag">獲利能力</span><h3>退貨與廣告獲利能力：電商的盲點</h3><p>商品退貨如何悄悄侵蝕 Meta 與 Google 的廣告獲利、如何將退貨回溯到活動與創意，以及該做哪些改變。</p><div class="meta" style="margin-top:12px">2026 年 7 月 20 日 · 閱讀時間 6 分鐘</div></div></a><a class="post-card" href="../weekly-paid-media-profit-review/index.html"><img src="../../../assets/img/a10-640.webp" alt="珊瑚色光帶形成環繞平靜發光核心的每週循環軌道，背景為午夜藏青色" width="640" height="427" loading="lazy"><div class="b"><span class="tag">實戰手冊</span><h3>每週 30 分鐘的付費媒體獲利檢討</h3><p>給 Meta 與 Google 廣告主的實用每週例行流程：在 30 分鐘內檢查獲利、創意健康度與預算，然後做出三個決定。</p><div class="meta" style="margin-top:12px">2026 年 7 月 6 日 · 閱讀時間 6 分鐘</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 標誌"><rect width="40" height="40" rx="6" fill="#FF5B2E"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#0D1024" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#FFFFFF">fmedia</tspan><tspan fill="#FF5B2E">.marketing</tspan></text></svg></div><p style="max-width:30em">FMedia 是一家以獲利、而非虛榮 ROAS 衡量 Meta 與 Google 廣告的付費媒體工作室。</p>
+<p class="partner">技術夥伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">稽核我的廣告帳戶</a></p>
+<p>寄信至 <a href="mailto:ask@fmedia.marketing">ask@fmedia.marketing</a></p></div>
+<div><h4>FMedia</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我們的工作</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">關於我們</a></li><li><a href="../../index.html#faq">常見問題</a></li><li><a href="../../../brand/index.html">品牌規範</a></li><li><a href="https://fmedia.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技術支援</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">品牌方案</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">代理商方案</a></li></ul></div>
+</div>
+<h4>生態系</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每週一，解讀一個真實訊號</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可驗證的全天候聆聽</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>代理執行，人類指揮。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年的 AI 內容功力</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>為推理模型重新設計的行銷</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>為東南亞解讀消費者心理與文化</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search、Neural answers、Mentions，一次到位。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 FMedia · fmedia.marketing · 新加坡。 </p>
+</div></footer>
+</body></html>

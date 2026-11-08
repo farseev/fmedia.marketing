@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>找出 Meta 與 Google 廣告中的隱藏成本</title>
+<meta name="description" content="平台儀表板遺漏的七項隱藏成本，從歸因重疊到折扣外漏，以及如何在您自己的數據中找出每一項。">
+<link rel="canonical" href="https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/">
+<link rel="alternate" hreflang="en-SG" href="https://fmedia.marketing/blog/hidden-costs-in-advertising/">
+<link rel="alternate" hreflang="zh-Hans" href="https://fmedia.marketing/zh-hans/blog/hidden-costs-in-advertising/">
+<link rel="alternate" hreflang="zh-Hant" href="https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/">
+<link rel="alternate" hreflang="x-default" href="https://fmedia.marketing/blog/hidden-costs-in-advertising/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0D1024">
+<meta property="og:site_name" content="FMedia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="找出 Meta 與 Google 廣告中的隱藏成本">
+<meta property="og:description" content="廣告中的隱藏成本，是會降低付費活動獲利、卻從不出現在 Meta 或 Google 儀表板上的費用。">
+<meta property="og:url" content="https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/">
+<meta property="og:image" content="https://fmedia.marketing/assets/img/og/hidden-costs-in-advertising.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="找出 Meta 與 Google 廣告中的隱藏成本，FMedia">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="找出 Meta 與 Google 廣告中的隱藏成本">
+<meta name="twitter:description" content="廣告中的隱藏成本，是會降低付費活動獲利、卻從不出現在 Meta 或 Google 儀表板上的費用。">
+<meta name="twitter:image" content="https://fmedia.marketing/assets/img/og/hidden-costs-in-advertising.jpg">
+<meta name="twitter:image:alt" content="找出 Meta 與 Google 廣告中的隱藏成本，FMedia">
+<meta name="application-name" content="FMedia"><meta name="apple-mobile-web-app-title" content="FMedia">
+<meta property="article:author" content="FMedia"><meta property="article:published_time" content="2026-09-07"><meta property="article:section" content="獲利能力"><meta name="keywords" content="hidden advertising costs, ad spend waste, discount leakage, attribution overlap, Meta Google costs">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="FMedia 部落格" href="https://fmedia.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Sora','Noto Sans TC',system-ui,sans-serif;--fb:'Inter','Noto Sans TC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKM75EEBQQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LKM75EEBQQ');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"找出 Meta 與 Google 廣告中的隱藏成本","description":"平台儀表板遺漏的七項隱藏成本，從歸因重疊到折扣外漏，以及如何在您自己的數據中找出每一項。","datePublished":"2026-09-07","dateModified":"2026-09-07","image":["https://fmedia.marketing/assets/img/og/hidden-costs-in-advertising.jpg","https://fmedia.marketing/assets/img/a04.webp"],"url":"https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/","mainEntityOfPage":"https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/","keywords":"hidden advertising costs, ad spend waste, discount leakage, attribution overlap, Meta Google costs","articleSection":"獲利能力","inLanguage":"zh-Hant","wordCount":908,"author":{"@type":"Organization","name":"FMedia editorial team","url":"https://fmedia.marketing/"},"publisher":{"@id":"https://fmedia.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FMedia","item":"https://fmedia.marketing/zh-hant/"},{"@type":"ListItem","position":2,"name":"部落格","item":"https://fmedia.marketing/zh-hant/blog/"},{"@type":"ListItem","position":3,"name":"找出 Meta 與 Google 廣告中的隱藏成本","item":"https://fmedia.marketing/zh-hant/blog/hidden-costs-in-advertising/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"電商廣告中最大的隱藏成本是什麼？","acceptedAnswer":{"@type":"Answer","text":"對許多服飾與鞋類品牌而言是退貨。對其他品牌來說，則是歸因重疊或折扣外漏。請先用您自己的數據估算每一項的規模，再做決定。"}},{"@type":"Question","name":"什麼是折扣外漏？","acceptedAnswer":{"@type":"Answer","text":"提供給原本就會以全額購買之顧客的折扣，通常發生在向已決定購買的買家顯示折扣碼的再行銷或品牌關鍵字搜尋廣告中。"}},{"@type":"Question","name":"我能在不減少測試的情況下降低測試浪費嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。在上線前為創意概念評分，讓您花錢測試的創意已經先依受眾回應篩選過。您測試的數量相同，但明顯會失敗的創意變少了。"}}]},{"@type":"Organization","@id":"https://fmedia.marketing/#org","name":"FMedia","url":"https://fmedia.marketing/","logo":"https://fmedia.marketing/brand/logo.svg","email":"ask@fmedia.marketing","description":"FMedia is a paid media profitability studio for Meta and Google advertisers. It calculates true-profit ROAS after returns, payment fees, shipping and discounts, detects creative fatigue before results collapse, and recommends budget reallocation across campaigns. Its pre-spend creative clickability scoring is powered by its technology partner SOMIN (somin.ai), an AI audience-research and paid-media intelligence platform.","slogan":"Paid media, measured in profit","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@fmedia.marketing","contactType":"sales"},"knowsAbout":["CTR decay","Google Ads profit","MER","Meta Google budget","Meta Google costs","Meta ads ROAS","Meta vs Google attribution","SOMIN","ad account audit","ad budget optimisation","ad creative prediction","ad fatigue Meta","ad frequency","ad profitability","ad reporting","ad spend waste","agency performance","agency scorecard","attribution overlap","budget reallocation","creative clickability","creative fatigue","creative refresh","creative scoring","cross-channel ROAS"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"FMedia"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="FMedia 首頁"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 標誌"><rect width="40" height="40" rx="6" fill="#0D1024"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#FF5B2E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#0D1024">fmedia</tspan><tspan fill="#C2410C">.marketing</tspan></text></svg></a>
+<nav aria-label="主選單"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我們的工作</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常見問題</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">稽核我的廣告帳戶</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="語言: 繁體中文"><span>繁中</span></summary><ul><li><a href="../../../blog/hidden-costs-in-advertising/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/hidden-costs-in-advertising/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="導覽路徑"><a href="../../index.html">FMedia</a> / <a href="../index.html">部落格</a> / 獲利能力</nav>
+<h1 style="margin-top:18px">找出 Meta 與 Google 廣告中的隱藏成本</h1><p class="meta">2026 年 9 月 7 日 · 閱讀時間 7 分鐘 · FMedia 編輯團隊 · <a href="#faq">常見問題</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a04.webp" alt="一道快速的珊瑚色光流穿過一條管道，細小的裂縫將發光的水滴噴灑進黑暗中" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">廣告中的隱藏成本，是會降低付費活動獲利、卻從不出現在 Meta 或 Google 儀表板上的費用。最常見的包括退貨、折扣外漏、金流與運送成本、平台之間的歸因重疊、品牌關鍵字搜尋的自我蠶食、在弱勢創意上的測試浪費，以及在超過獲利報酬點後仍持續的支出。</p>
+<h2>為什麼廣告平台看不到這些成本？</h2>
+<p>廣告平台衡量的是直到購買事件為止的旅程。結帳之後的一切，以及另一個平台所認領的一切，都在它們的視野之外。這不是一個可以靠設定消除的缺陷，而是一道邊界。獲利工具的工作，是把結帳後的世界重新接回結帳前的世界，讓每個活動都承擔其完整成本。</p>
+<p>在 SOMIN 針對付費媒體的聆聽中，「找出廣告中的隱藏成本」是行銷人反覆出現的一個時刻：廣告看起來沒問題、毛利卻不對勁的那個不安時點。有用的回應是有系統的搜查，而不是模糊的擔憂。</p>
+<h2>七項隱藏成本檢查清單</h2>
+<ol>
+<li><strong>退貨與退款。</strong>在服飾、鞋類與電子配件中最高。將退貨訂單對應回帶來這些訂單的活動。</li>
+<li><strong>折扣外漏。</strong>原本願意付全額的顧客使用了折扣碼。請留意再行銷與品牌關鍵字搜尋中折扣碼使用率偏高的情況，因為這些地方的購買意圖早已很強。</li>
+<li><strong>金流手續費。</strong>每筆訂單一小部分的百分比，加上固定費用，對低客單價活動的傷害最大。</li>
+<li><strong>運送與履約補貼。</strong>免運門檻在小額訂單上的成本高於它帶來的收益。</li>
+<li><strong>歸因重疊。</strong>同一筆訂單同時被 Meta 與 Google 認領，灌水了合併 ROAS。我們在<a href="../meta-google-double-counting/index.html">關於平台之間重複計算的文章</a>中探討了這一點。</li>
+<li><strong>品牌關鍵字搜尋的自我蠶食。</strong>為那些本來就要找上門的人點擊您自己的品牌名稱而付費。</li>
+<li><strong>測試浪費。</strong>花預算去學到弱勢創意確實很弱，而這往往在上線前就能預測。</li>
+</ol>
+<h2>如何在您自己的數據中找出每一項成本？</h2>
+<h3>退貨</h3>
+<p>匯出帶有來源或 UTM 欄位的訂單，將其與退貨資料串接，並依活動與商品類別計算退貨率。如果無法做到活動層級的對應，將類別層級的退貨率套用到各活動的商品組合上，也是一個不錯的起點。</p>
+<h3>折扣</h3>
+<p>比較新顧客與回購顧客之間，以及開發型與再行銷活動之間的折扣使用情況。再行銷中回購顧客大量使用折扣碼，表示您付了兩次錢：一次付給廣告，一次付給折扣。</p>
+<h3>重疊與自我蠶食</h3>
+<p>將 Meta 與 Google 平台回報的營收相加，再與您商店中實際歸因於付費管道的營收比較。兩者的差距就是重疊程度的粗略衡量。在品牌關鍵字搜尋方面，在單一地區進行短暫且受控的暫停，能比任何儀表板告訴您更多。</p>
+<h3>測試浪費</h3>
+<p>計算上一季有多少支出花在因成效不佳而在兩週內被關閉的創意上。這個數字就是您的測試稅。其中一部分無可避免，但很大一部分是可以避免的，這就是為什麼 FMedia 會運用 <a href="https://somin.ai/somin-paid-media/" rel="noopener">SOMIN 的付費媒體智慧</a>在投放前為創意評分。更多方法請見<a href="../pre-spend-creative-scoring/index.html">我們的投放前創意評分指南</a>。</p>
+<h2>應該先修正哪一項隱藏成本？</h2>
+<p>先估算規模，再修正您能最快掌控的最大一項。退貨通常是最大的一項，卻也最難改變；折扣外漏與品牌關鍵字搜尋通常較小，但一週內就能修正。合理的順序是：</p>
+<ul>
+<li>收緊高意圖活動的折扣規則。</li>
+<li>測試暫停品牌關鍵字搜尋或設定出價上限。</li>
+<li>在上線前為新創意評分，以減少測試浪費。</li>
+<li>與商品企劃及創意團隊合作處理高退貨商品，通常可以透過在廣告中設定更清楚的期望來改善。</li>
+</ul>
+<p>最後一項經常被低估。一則誇大版型、尺寸或質感的廣告，會吸引到最後把東西退回的買家。誠實的創意是一個獲利槓桿。</p>
+<h2>付費媒體以外的能見度成本呢？</h2>
+<p>有些隱藏成本其實是錯失的機會。如果顧客無法在自然搜尋或 AI 回答中找到您，您就得花錢租用原本可以自己贏得的關注。我們的姊妹品牌 <a href="https://snmrush.com/" rel="noopener">SNMRush</a> 致力於提升在搜尋與 AI 助理中的能見度，長期下來能降低您對付費品牌點擊的依賴。</p>
+<p>若想看看品牌端如何以真實受眾證據、而非假設來做決策的例子，請閱讀 <a href="https://somin.ai/brands-mothercare-sg-case-study/" rel="noopener">somin.ai 上的 Mothercare Singapore 案例研究</a>。</p>
+<h2>快速估算規模的練習</h2>
+<p>在修正任何事情之前，先花一小時估算上一個完整季度中每一項成本的規模。在一頁紙上寫下七行，每一項隱藏成本一行，並在旁邊寫上以貨幣計的概略數字：歸因於付費訂單的退貨、付費訂單使用的折扣金額、金流手續費、運費補貼、估算的重疊、品牌關鍵字搜尋的估計值，以及花在兩週內被關閉之創意上的支出。這些數字不會完美，但這沒關係。您需要的是排序，而它通常會讓人意外。團隊常常發現，自己爭論最多的成本並不是最大的那一項。</p><blockquote>您從未看見的成本，就是您一直在支付的成本。</blockquote>
+<h2>FMedia 如何揭露隱藏成本</h2>
+<p>FMedia 將您的廣告帳戶與訂單、退貨及成本數據連結，再把每一項隱藏成本對應到產生它的活動。Meta 與 Google 之間的重疊會對照真實訂單進行估算。折扣使用情況會依受眾類型拆分。測試浪費則逐一針對每則創意追蹤。每一項成本都以貨幣金額呈現，而不是模糊的警告，讓您可以為它們排序並決定從哪裡著手。</p>
+<p>這一切都不需要完美的資料倉儲，需要的是願意檢視平台不會顯示給您的數字，以及一個每週持續檢視的工具。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常見問題</h2><details><summary>電商廣告中最大的隱藏成本是什麼？</summary><p>對許多服飾與鞋類品牌而言是退貨。對其他品牌來說，則是歸因重疊或折扣外漏。請先用您自己的數據估算每一項的規模，再做決定。</p></details><details><summary>什麼是折扣外漏？</summary><p>提供給原本就會以全額購買之顧客的折扣，通常發生在向已決定購買的買家顯示折扣碼的再行銷或品牌關鍵字搜尋廣告中。</p></details><details><summary>我能在不減少測試的情況下降低測試浪費嗎？</summary><p>可以。在上線前為創意概念評分，讓您花錢測試的創意已經先依受眾回應篩選過。您測試的數量相同，但明顯會失敗的創意變少了。</p></details></section>
+<div class="cta-box"><h2>稽核我的廣告帳戶</h2><p>FMedia 以扣除退貨、手續費與折扣後的真實獲利 ROAS 取代虛榮 ROAS，接著告訴您哪些創意正在疲乏、預算應該移往哪裡，以及哪些新廣告值得花錢測試。</p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia%20%28re%3A%20Finding%20hidden%20costs%20in%20your%20Meta%20and%20Google%20advertising%29">寄信至 ask@fmedia.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>延伸閱讀</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../agency-performance-beyond-vanity-metrics/index.html"><img src="../../../assets/img/a03-640.webp" alt="一枚珊瑚色透鏡揭露出一座中空發光的光之獎盃，內部是一束較細的實心光束，背景為午夜藏青色" width="640" height="427" loading="lazy"><div class="b"><span class="tag">代理商</span><h3>如何在虛榮指標之外評估代理商表現</h3><p>一份以獲利、而非平台 ROAS、CTR 或曝光次數來評判付費媒體代理商的實用評分卡。包括該問的問題與該索取的數據。</p><div class="meta" style="margin-top:12px">2026 年 9 月 14 日 · 閱讀時間 7 分鐘</div></div></a><a class="post-card" href="../pre-spend-creative-scoring/index.html"><img src="../../../assets/img/a05-640.webp" alt="一個 AI 網格掃描著昏暗的廣告畫面，其中一個畫面亮起珊瑚色，一道光帶從中射出" width="640" height="427" loading="lazy"><div class="b"><span class="tag">創意</span><h3>投放前創意評分：在付費競價之前先測試創意</h3><p>投放前創意點擊潛力評分如何運作、為什麼能減少 Meta 與 Google 上的測試浪費，以及如何將它融入您的創意工作流程。</p><div class="meta" style="margin-top:12px">2026 年 8 月 24 日 · 閱讀時間 7 分鐘</div></div></a><a class="post-card" href="../budget-reallocation-diminishing-returns/index.html"><img src="../../../assets/img/a06-640.webp" alt="珊瑚色光流在一個發光的交會點被改道，從逐漸平緩的通道轉入一條上升的通道" width="640" height="427" loading="lazy"><div class="b"><span class="tag">預算</span><h3>預算重新分配：在報酬遞減之前調動支出</h3><p>如何察覺 Meta 與 Google 活動的報酬遞減，並以邊際真實獲利 ROAS 重新分配預算，附一套簡單的每週方法。</p><div class="meta" style="margin-top:12px">2026 年 8 月 17 日 · 閱讀時間 7 分鐘</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 40" width="262" height="40" role="img" aria-label="FMedia 標誌"><rect width="40" height="40" rx="6" fill="#FF5B2E"/><path d="M17 31V15.5a5.5 5.5 0 0 1 5.5-5.5H27M12 19.5h11M27.5 28h.01" fill="none" stroke="#0D1024" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Sora', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8"><tspan fill="#FFFFFF">fmedia</tspan><tspan fill="#FF5B2E">.marketing</tspan></text></svg></div><p style="max-width:30em">FMedia 是一家以獲利、而非虛榮 ROAS 衡量 Meta 與 Google 廣告的付費媒體工作室。</p>
+<p class="partner">技術夥伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@fmedia.marketing?subject=Audit%20my%20ad%20account%20with%20FMedia">稽核我的廣告帳戶</a></p>
+<p>寄信至 <a href="mailto:ask@fmedia.marketing">ask@fmedia.marketing</a></p></div>
+<div><h4>FMedia</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我們的工作</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">關於我們</a></li><li><a href="../../index.html#faq">常見問題</a></li><li><a href="../../../brand/index.html">品牌規範</a></li><li><a href="https://fmedia.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技術支援</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">品牌方案</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">代理商方案</a></li></ul></div>
+</div>
+<h4>生態系</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每週一，解讀一個真實訊號</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可驗證的全天候聆聽</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>代理執行，人類指揮。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年的 AI 內容功力</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>為推理模型重新設計的行銷</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>為東南亞解讀消費者心理與文化</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search、Neural answers、Mentions，一次到位。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 FMedia · fmedia.marketing · 新加坡。 </p>
+</div></footer>
+</body></html>
